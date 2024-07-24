@@ -9,22 +9,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar poppins-light  p-4">
+    <nav className="navbar poppins-regular  p-4">
       <div className="navbar-left">
-        <a href="/">Personal Portfolio</a>
+        <a href="/">Personal Website</a>
       </div>
       <button className="menu-button" onClick={toggleMenu}>
         ☰
       </button>
       <div className={`navbar-right ${isOpen ? 'open' : ''}`}>
-      <a href="#home">Home</a>
-      <a href="#my-journey">Journey</a>
-       <a href="#skills">Skills</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#education">Education</a>
-        <a href="#articles">Articles</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+      <a href="#home" className='font-semibold'>Home</a>
+      <a href="#my-journey" className='g-nav'>Journey</a>
+       <a href="#skills" className='g-nav'>Skills</a>
+        <a href="#testimonials" className='g-nav'>Testimonials</a>
+        <a href="#my-journey" className='g-nav'>Education</a>
+        <a href="#articles" className='g-nav'>Articles</a>
+        <a href="#news" className='g-nav'>News</a>
+        <a href="#contact" className='g-nav'>Contact</a>
       </div>
     </nav>
   );

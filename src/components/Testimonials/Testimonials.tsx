@@ -83,7 +83,7 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <div className={styles.testimonialsSection}>
+    <div className={styles.testimonialsSection} id="testimonials">
       <p className={styles.sectionTitle}>Testimonials</p>
       <div className={styles.testimonialsContainer}>
         <Slider {...settings}>

@@ -11,17 +11,17 @@ const Hero = () => {
         <img src={heroImage} alt="Description" />
       </div>
       <div className="ml-4 mr-4 md:mt-16 text sm:text-left text-center md:max-w-[755px] md:max-h-[658]">
-        <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular ">Joshua Kanatt</h1>
-        <p className='jost-200 text-xl leading-10 text-neutral-400 md:tracking-[3px]'>
+        <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular g-h1">Joshua Kanatt</h1>
+        <p className='jost-400 text-xl leading-10 text-neutral-400 md:tracking-[3px] g-h2'>
         Founder & Chief Executive Officer - GAMERS TAG</p>     
-        <p className='poppins-extralight mt-2 gradient-text md:tracking-widest'>
+        <p className='jost-200 mt-2 gradient-text md:tracking-widest'>
         I'm a visionary entrepreneur with over four years of expertise in Product management, architecture, Marketing, Data analytics, Business development & Consulting, and Startups. Designed over 100 world-class products, setting new industry standards. With unique talent for forecasting product growth, validated by extensive customer persona analysis. As an entrepreneur by heart, I bring a competitive mindset to product ownership,
 assuring highest performance and innovation with mindset of 5x growth. Have a vision to forecast the product. My expertise of numerous business models in multiple industries, refined by my experience.
         </p>
         
         <br></br>
-    <p className='md:text-2xl text-lg poppins-extralight  bg-clip-text md:tracking-[3px]'>"The journey of a thousand miles begins <br></br>with a single innovative step."</p>
-    <p className='md:mr-20 md:text-right text-center text-xl poppins-extralight'>- Joshua Kanatt</p>
+    <p className='md:text-2xl text-lg jost-400  bg-clip-text md:tracking-[3px] g-q'>"The journey of a thousand miles begins <br></br>with a single innovative step."</p>
+    <p className='md:mr-32 md:text-right text-center text-xl jost-400 g-q'>- Joshua Kanatt</p>
  
     <div className="social-media-buttons md:mt-10">
     <a href="https://www.instagram.com/joshua_kanatt/" target="google.com" rel="noopener noreferrer">

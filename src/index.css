@@ -276,14 +276,29 @@ p {
   font-size: 0.8em;
 }
 
-.gradient-h1
-{
+.g-h1{
 background: #FFFFFF;
-background: linear-gradient(to right, #FFFFFF 100%, #C2C2C2 100%);
+background: linear-gradient(to bottom, #FFFFFF 0%, #C2C2C2 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.gradient-p
+.g-p{
+background: #ACACAC;
+background: linear-gradient(to top, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.g-q
 {
-color:#ACACAC
+background: #ACACAC;
+background: linear-gradient(to top, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.g-nav{
+-webkit-text-fill-color: #828282;
+}
+.g-h2{
+-webkit-text-fill-color: #ACACAC; 
 }

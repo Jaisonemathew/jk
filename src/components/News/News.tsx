@@ -5,7 +5,7 @@ const News = () => {
   return (
    
 <>
-<p className="text-4xl poppins-bold gradient text-center">News About me</p><br></br>
+<p className="mt-10 text-4xl poppins-bold gradient text-center" id="news">News About me</p><br></br>
       <p className='text-center dm-sans-400'>These are the news about me in various journals</p><br></br>
       
       <div className="relative flex flex-col mt-6 text-gray-700 shadow-xl bg-clip-border rounded-xl w-96 md:m-8 p-4">

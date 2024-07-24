@@ -6,7 +6,7 @@ import img4 from "../../assets/skills/4.webp";
 const Skills = () => {
   return (
    <>
-   <p className="mt-10 text-4xl poppins-bold gradient text-center">My Skills</p><br></br>
+   <p className="mt-10 text-4xl poppins-bold gradient text-center" id="skills">My Skills</p><br></br>
       {/* Skills Part */}
 <div className="md:flex">      
 <div className="">

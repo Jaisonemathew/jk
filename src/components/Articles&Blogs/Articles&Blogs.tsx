@@ -29,7 +29,7 @@ const articlesData: Article[] = [
 
 const ArticlesAndBlogs: React.FC = () => {
   return (
-    <div className={styles.articlesBlogsSection}>
+    <div className={styles.articlesBlogsSection} id="articles">
       <p className={styles.sectionTitle}>Articles & Blogs</p>
       {articlesData.map((article, index) => (
         <div className={styles.articleCard} key={index}>
