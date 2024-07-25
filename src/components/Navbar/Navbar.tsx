@@ -1,15 +1,27 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect} from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const navbarRef = useRef<HTMLElement | null>(null);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(() => { 
+    const handleClickOutside = (event: MouseEvent) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target as Node)) {
+        setIsOpen(false); 
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
-    <nav className="navbar poppins-regular  p-4">
+    <nav ref={navbarRef} className="navbar poppins-regular p-4">
       <div className="navbar-left">
         <a href="/">Personal Website</a>
       </div>

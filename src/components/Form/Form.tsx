@@ -98,9 +98,13 @@ function Form() {
   />
 </div>
 <div className='m-4 flex justify-center'>
-  <button className="m-3 p-2 w-32 rounded-lg font-normal bg-nwhite text-nblack" type="submit" disabled={state.submitting}>
-  Send
-  </button>
+<button className="m-3 p-2 w-32 rounded-lg font-normal bg-nwhite text-nblack flex justify-center items-center" type="submit" disabled={state.submitting}>
+  {state.submitting ? (
+    <div className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-nblack"></div> // CSS spinner
+  ) : (
+    "Send"
+  )}
+</button>
   </div>
 </form>
 
