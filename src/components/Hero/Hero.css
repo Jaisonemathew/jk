@@ -88,3 +88,6 @@ background: linear-gradient(to top right, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%)
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.fc{
+  -webkit-text-fill-color: #ACACAC;
+}
