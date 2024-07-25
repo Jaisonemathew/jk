@@ -68,3 +68,23 @@
    
   }
  */
+
+ hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid #333333;
+}
+
+.acolor
+{
+-webkit-text-fill-color:#737373;
+}
+.acolor a:hover {
+  -webkit-text-fill-color: white;
+}
+.hp{
+background: #ACACAC;
+background: linear-gradient(to top right, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

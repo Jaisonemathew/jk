@@ -15,7 +15,7 @@
 }
 
 .navbar a:hover {
-  color: gray;
+  -webkit-text-fill-color: white;
 }
 
 .navbar-left a {

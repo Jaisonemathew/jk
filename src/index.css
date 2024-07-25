@@ -296,9 +296,8 @@ background: linear-gradient(to top, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
 -webkit-text-fill-color: transparent;
 }
 
-.g-nav{
--webkit-text-fill-color: #828282;
-}
-.g-h2{
--webkit-text-fill-color: #ACACAC; 
+@media (min-width: 769px) {
+  .g-nav {
+    -webkit-text-fill-color: #828282;
+  }
 }
