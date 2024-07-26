@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular g-h1">Joshua Kanatt</h1>
         <p className='jost-400 text-xl leading-10 text-neutral-400 md:tracking-[3px] g-h2 fc'>
         Founder & Chief Executive Officer - GAMERS TAG</p>     
-        <p className='jost-400 mt-2 gradient-text md:tracking-widest hp'>
+        <p className='jost-300 mt-2 md:tracking-widest hp'>
         I'm a visionary entrepreneur with over four years of expertise in Product management, architecture, Marketing, Data analytics, Business development & Consulting, and Startups. Designed over 100 world-class products, setting new industry standards. With unique talent for forecasting product growth, validated by extensive customer persona analysis. As an entrepreneur by heart, I bring a competitive mindset to product ownership,
 assuring highest performance and innovation with mindset of 5x growth. Have a vision to forecast the product. My expertise of numerous business models in multiple industries, refined by my experience.
         </p>
@@ -46,7 +46,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
       
     </div>
     <div  className="ml-72 -mt-28 poppins-regular hidden md:block"><hr></hr>
-    <div className="flex justify-between mt-2 mr-28 ml-28 acolor">
+    <div className="flex justify-between mt-2 mr-28 ml-40 acolor">
     <a href="https://www.instagram.com/joshua_kanatt/" target="google.com" rel="noopener noreferrer">
   LinkedIn
 </a>
@@ -67,7 +67,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
 </a>
 </div>
     </div>
-    <div className='mb-20'></div>
+    <div className='md:mb-20'></div>
   </>
   );
 };

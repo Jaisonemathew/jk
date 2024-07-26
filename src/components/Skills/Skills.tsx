@@ -3,6 +3,7 @@ import img1 from "../../assets/skills/1.webp";
 import img2 from "../../assets/skills/2.webp";
 import img3 from "../../assets/skills/3.webp";
 import img4 from "../../assets/skills/4.webp";
+import './Skills.css'
 const Skills = () => {
   return (
    <>
@@ -30,7 +31,7 @@ const Skills = () => {
 
 
 <div className="">
-<div className="md:w-82 h-82  m-8 rounded-2xl p-8 flex flex-col justify-center items-center bg-newblack">
+<div className="md:w-82 h-82  m-8 rounded-2xl p-8 flex flex-col justify-center items-center bg-newblack hover:text-nblack hover:bg-nwhite scale-on-hover">
     <img src={img3} alt="1"></img><br></br>
     <p className="uppercase dm-sans-700">Business Development & Management</p>
     <p className="mt-4 poppins-extralight">With extensive experience in business development and management, I have successfully driven growth and fostered innovation across various industries. My skills in negotiation, project management, and stakeholder engagement ensure that projects are executed smoothly and deliver maximum value.  </p>

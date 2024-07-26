@@ -147,6 +147,7 @@ const EducationJourney: React.FC = () => {
   return (
     <>
       <div className={styles.SectionTitle} id="my-journey">
+        
         <p onClick={handleCareerClick}>Professional Career</p>
         
         <p className={showCareer ? '' : styles.hidden} onClick={handleEducationClick}>Education Career</p>

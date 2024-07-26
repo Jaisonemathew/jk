@@ -21,7 +21,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav ref={navbarRef} className="navbar poppins-regular p-4">
+    <nav ref={navbarRef} className="navbar poppins-light p-4">
       <div className="navbar-left">
         <a href="/">Personal Website</a>
       </div>
