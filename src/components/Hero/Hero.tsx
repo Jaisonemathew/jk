@@ -23,7 +23,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
     <p className='md:text-2xl text-lg jost-400  bg-clip-text md:tracking-[3px] g-q'>"The journey of a thousand miles begins <br></br>with a single innovative step."</p>
     <p className='md:ml-14 md:text-right text-center text-xl jost-400 g-q'>- Joshua Kanatt</p>
     <div className="social-media-buttons md:mt-10 md:hidden">
-    <a href="https://www.instagram.com/joshua_kanatt/" target="google.com" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/joshuakanatt/" target="google.com" rel="noopener noreferrer">
       <FaLinkedin />
     </a>
     <a href="https://x.com/joshua_kanatt/" target="_blank" rel="noopener noreferrer">
@@ -45,9 +45,9 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
       </div>
       
     </div>
-    <div  className="ml-72 -mt-28 poppins-regular hidden md:block"><hr></hr>
+    <div  className="ml-80 -mt-28 poppins-regular hidden md:block"><hr></hr>
     <div className="flex justify-between mt-2 mr-28 ml-40 acolor">
-    <a href="https://www.instagram.com/joshua_kanatt/" target="google.com" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/joshuakanatt/" target="google.com" rel="noopener noreferrer">
   LinkedIn
 </a>
 <a href="https://x.com/joshua_kanatt/" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
   Instagram
 </a>
 <a href="https://in.pinterest.com/joshuakanatt/" target="_blank" rel="noopener noreferrer">
-  Facebook
+ Pintrest
 </a>
 <a href="https://www.youtube.com/@joshuakanatt" target="_blank" rel="noopener noreferrer">
   YouTube

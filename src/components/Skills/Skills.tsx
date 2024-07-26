@@ -3,7 +3,7 @@ import img1 from "../../assets/skills/1.webp";
 import img2 from "../../assets/skills/2.webp";
 import img3 from "../../assets/skills/3.webp";
 import img4 from "../../assets/skills/4.webp";
-import './Skills.css'
+
 const Skills = () => {
   return (
    <>
@@ -26,7 +26,7 @@ const Skills = () => {
 
 
 <div className="">
-  <img src={iosimage} alt="Image" className="mt-8 md:h-83 md:max-w-[518px]"></img>
+  <img src={iosimage} alt="Image" className="mt-8 md:h-83 md:max-w-[518px] scale-on-hover "></img>
 </div>
 
 

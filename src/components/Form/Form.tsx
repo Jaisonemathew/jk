@@ -17,7 +17,7 @@ function Form() {
   
     <div className='md:flex'>
       <div className='m-2 flex flex-col md:w-1/2'>
-  <label className='' htmlFor="name">
+  <label className='mb-2' htmlFor="name">
     Name* 
   </label>
   <input
@@ -33,7 +33,7 @@ function Form() {
   />
   </div>
   <div className="m-2 flex flex-col md:w-1/2">
-<label htmlFor="email">
+<label htmlFor="email" className='mb-2'>
     Email*
   </label>
   <input
@@ -53,7 +53,7 @@ function Form() {
 
 <div className='md:flex'>
   <div className='m-2 flex flex-col md:w-1/2'>
-  <label htmlFor="mobile">
+  <label htmlFor="mobile" className='mb-2'>
     Mobile Number
   </label>
   <input
@@ -68,7 +68,7 @@ function Form() {
   />
 </div>
 <div className='m-2 flex flex-col md:w-1/2'>
-  <label htmlFor="linkedin">
+  <label htmlFor="linkedin" className='mb-2'>
     LinkedIn Profile
   </label>
   <input
@@ -84,7 +84,7 @@ function Form() {
 </div>
 </div>
 <div className='flex flex-col m-2'>
-  <label htmlFor="message">
+  <label htmlFor="message" className='mb-2'>
     Message
   </label>
   <textarea className='p-2 w-full bg-newblack text-white border border-gray-200 '
