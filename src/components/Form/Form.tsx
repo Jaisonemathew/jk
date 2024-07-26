@@ -74,7 +74,7 @@ function Form() {
   <input
     id="linkedin"
     type="text" 
-    name="linkedin" className=' border border-gray-200 bg-newblack text-white rounded-md p-2'
+    name="linkedin" className='border border-gray-200 bg-newblack text-white rounded-md p-2'
   />
   <ValidationError 
     prefix="LinkedIn" 
