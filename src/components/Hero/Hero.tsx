@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <>
     <div className="md:flex m-4">
-        <div className=" md:max-w-[615px] md:max-h-[900px] mt-5 scale-on-hover">
+        <div className="md:w-1/2 lg:max-w-[615px] lg:max-h-[900px] mt-5 scale-on-hover">
         <img src={heroImage} alt="Description" />
       </div>
-      <div className="ml-4 mr-4 md:mt-16 text sm:text-left text-center md:max-w-[670px] md:max-h-[658]">
+      <div className="ml-4 mr-4 md:mt-16 text sm:text-left text-center lg:max-w-[670px] lg:max-h-[658] md:w-1/2">
         <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular g-h1">Joshua Kanatt</h1>
         <p className='jost-400 text-xl leading-10 text-neutral-400 md:tracking-[3px] g-h2 fc'>
         Founder & Chief Executive Officer - GAMERS TAG</p>     
@@ -45,7 +45,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
       </div>
       
     </div>
-    <div  className="ml-80 -mt-28 poppins-regular hidden md:block"><hr></hr>
+    <div  className="ml-80 -mt-28 poppins-regular hidden lg:block"><hr></hr>
     <div className="flex justify-between mt-2 mr-28 ml-40 acolor">
     <a href="https://www.linkedin.com/in/joshuakanatt/" target="google.com" rel="noopener noreferrer">
   LinkedIn
@@ -67,7 +67,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
 </a>
 </div>
     </div>
-    <div className='md:mb-20'></div>
+    <div className='lg:mb-20'></div>
   </>
   );
 };

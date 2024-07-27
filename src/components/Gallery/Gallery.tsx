@@ -18,8 +18,14 @@ const imageLinks = [
     'https://www.linkedin.com/posts/joshuakanatt_a-thriving-entrepreneur-is-a-dedicated-activity-7162072490641383424-IAMR?utm_source=share&utm_medium=member_desktop',
     'https://www.linkedin.com/posts/joshuakanatt_im-thrilled-to-announce-that-i-have-activity-7088034104394338304-Y-sG/?utm_source=share&utm_medium=member_desktop',
     'https://www.linkedin.com/posts/joshuakanatt_india-indiansports-historicwins-activity-7108703588369010688-QqGB/?utm_source=share&utm_medium=member_desktop',
-    'https://example.com/image4'
-  ];
+    'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_startups-business-leadership-activity-7031558151145484289--_kC/?utm_source=share&utm_medium=member_desktop'
+  
+   ];
   
   const GalleryContainer = styled.div`
   display: flex;
