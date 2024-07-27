@@ -6,7 +6,7 @@ import News from './components/News/News'
 import Skills from './components/Skills/Skills'
 import Form from './components/Form/Form'
 import Testimonials from './components/Testimonials/Testimonials'
-import EducationJourney from './components/Educational_journey/Education_career';
+// import EducationJourney from './components/Educational_journey/Education_career';
 import ArticlesAndBlogs from './components/Articles&Blogs/Articles&Blogs';
 import MyFeedsAndPosts from './components/MyFeeds&post/MyFeeds&post';
 import Gallery from './components/Gallery/Gallery'
@@ -19,7 +19,7 @@ function App() {
     <> 
    <Navbar/>
    <Hero/>
-   <EducationJourney/>
+   {/* <EducationJourney/> */}
    <Skills/>
    <ArticlesAndBlogs/>
    <Testimonials/>
