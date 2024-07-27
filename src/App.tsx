@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials/Testimonials'
 import EducationJourney from './components/Educational_journey/Education_career';
 import ArticlesAndBlogs from './components/Articles&Blogs/Articles&Blogs';
 import MyFeedsAndPosts from './components/MyFeeds&post/MyFeeds&post';
+import Gallery from './components/Gallery/Gallery'
 import './App.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
    <MyFeedsAndPosts/>
    <Paper/>
    <News/>
+   <Gallery/>
    <Form/>
    <footer className=' text-nwhite text-center p-4'>
      <p>© 2024 All rights reserved</p>    
