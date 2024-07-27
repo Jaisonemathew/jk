@@ -9,19 +9,19 @@ const Paper = () => {
       <p className='text-center ml-8 mr-8 dm-sans-400 '>These are the list of my research papers & articles published in various socials</p><br></br>
       <div className='poppins-extralight'>
       <div className="md:flex ml-8 mr-8">
-      <div className="text-center m-4">
+      <div className="text-center m-4 scale-on-hover" >
           <img src={image39} alt="test"/>
           <p>Advanced Neural Image Sensing and noise consilation builder
 NavIC (Navigation with Indian Constellation)
 </p>
         </div>
-        <div className="text-center m-4">
+        <div className="text-center m-4 scale-on-hover">
           <img src={image33} alt="test"/>
           <p>Advanced Neural Image Sensing and noise consilation builder
 NavIC (Navigation with Indian Constellation)
 </p>
         </div>
-        <div className="text-center m-4"> 
+        <div className="text-center m-4 scale-on-hover"> 
           <img src={image32} alt="test"/>
            <p>Advanced Neural Image Sensing and noise consilation builder
           NavIC (Navigation with Indian Constellation)</p> 

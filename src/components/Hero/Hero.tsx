@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
     <div className="md:flex m-4">
-        <div className=" md:max-w-[615px] md:max-h-[900px] mt-5">
+        <div className=" md:max-w-[615px] md:max-h-[900px] mt-5 scale-on-hover">
         <img src={heroImage} alt="Description" />
       </div>
       <div className="ml-4 mr-4 md:mt-16 text sm:text-left text-center md:max-w-[670px] md:max-h-[658]">

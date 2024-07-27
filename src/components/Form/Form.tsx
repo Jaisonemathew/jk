@@ -16,7 +16,7 @@ function Form() {
     <form onSubmit={handleSubmit} className='m-4 jost-300'>
   
     <div className='md:flex'>
-      <div className='m-2 flex flex-col md:w-1/2'>
+      <div className='m-2 flex flex-col md:w-1/2 '>
   <label className='mb-2' htmlFor="name">
     Name* 
   </label>
@@ -24,7 +24,7 @@ function Form() {
     id="name"
     type="text" 
     name="name"
-    required className=' border border-gray-200 bg-newblack text-white p-2 rounded-md'
+    required className='border border-gray-200 bg-newblack text-white p-2 rounded-md'
   />
   <ValidationError 
     prefix="Name" 

@@ -9,12 +9,15 @@ import image5 from '../../assets/Gallery/5.jpg';
 import image6 from '../../assets/Gallery/6.jpg';
 import image7 from '../../assets/Gallery/7.jpg';
 import image8 from '../../assets/Gallery/8.jpg';
-const images = [image1, image2, image3, image4,image5,image6,image7,image8];
+import image9 from '../../assets/Gallery/9.jpg';
+import image10 from '../../assets/Gallery/10.jpg';
+import image11 from '../../assets/Gallery/11.jpg';
+const images = [image1, image2, image3, image4,image5,image6,image7,image8,image9,image10,image11];
 
 const imageLinks = [
-    'https://example.com/image1',
-    'https://example.com/image2',
-    'https://example.com/image3',
+    'https://www.linkedin.com/posts/joshuakanatt_a-thriving-entrepreneur-is-a-dedicated-activity-7162072490641383424-IAMR?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_im-thrilled-to-announce-that-i-have-activity-7088034104394338304-Y-sG/?utm_source=share&utm_medium=member_desktop',
+    'https://www.linkedin.com/posts/joshuakanatt_india-indiansports-historicwins-activity-7108703588369010688-QqGB/?utm_source=share&utm_medium=member_desktop',
     'https://example.com/image4'
   ];
   
