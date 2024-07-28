@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Articles&Blogs.module.css';
 import casualgaming from '../../assets/Casual_gaming.png';
 import DAO from '../../assets/DAO.png'
+import { Fade } from 'react-awesome-reveal';
 
 interface Article {
   title: string;
@@ -30,6 +31,7 @@ const articlesData: Article[] = [
 
 const ArticlesAndBlogs: React.FC = () => {
   return (
+    <Fade>
     <div className={styles.articlesBlogsSection} id="articles">
       <p className={styles.sectionTitle}>Articles & Blogs</p>
       {articlesData.map((article, index) => (
@@ -58,6 +60,7 @@ const ArticlesAndBlogs: React.FC = () => {
       ))
       }
     </div >
+    </Fade>
   );
 };
 

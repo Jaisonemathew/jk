@@ -8,7 +8,7 @@ const Skills = () => {
   return (
    <>
    <Fade>
-   <p className="mt-10 text-4xl poppins-bold gradient text-center" id="skills">My Skills</p><br></br>
+   <p className="mt-20 text-4xl poppins-bold gradient text-center" id="skills">My Skills</p><br></br>
    </Fade>
       {/* Skills Part */}
      

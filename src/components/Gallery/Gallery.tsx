@@ -91,6 +91,7 @@ const Gallery: React.FC = () => {
     <>
     <Fade cascade damping={0.1}>
    <p className="text-4xl gradient text-center poppins-bold mt-10 ">GALLERY</p><br></br>
+    <div className='-mt-20 md:mt-2'>
     <GalleryContainer>
       <ImageContainer>
         <ImageLink href={imageLinks[currentIndex]} target="_blank" rel="noopener noreferrer">
@@ -106,6 +107,7 @@ const Gallery: React.FC = () => {
         </Button>
       </ButtonContainer>
     </GalleryContainer>
+    </div>
     </Fade>
     </>
     
