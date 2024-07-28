@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-
+import { Fade } from "react-awesome-reveal";
 import image1 from '../../assets/Gallery/1.jpg';
 import image2 from '../../assets/Gallery/2.jpg';
 import image3 from '../../assets/Gallery/3.jpg';
@@ -89,6 +89,7 @@ const Gallery: React.FC = () => {
 
   return (
     <>
+    <Fade cascade damping={0.1}>
    <p className="text-4xl gradient text-center poppins-bold mt-10 ">GALLERY</p><br></br>
     <GalleryContainer>
       <ImageContainer>
@@ -105,7 +106,9 @@ const Gallery: React.FC = () => {
         </Button>
       </ButtonContainer>
     </GalleryContainer>
+    </Fade>
     </>
+    
   );
 };
 

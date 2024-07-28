@@ -1,12 +1,15 @@
 import news from '../../assets/news.webp'
 import business from '../../assets/image 51.webp'
-
+import { Fade } from "react-awesome-reveal";
 const News = () => {
   return (
    
 <>
+<Fade cascade damping={0.1}>
 <p className="mt-10 text-4xl poppins-bold gradient text-center" id="news">News About me</p><br></br>
       <p className='text-center dm-sans-400'>These are the news about me in various journals</p><br></br>
+
+
       
       <div className="relative flex flex-col mt-6 text-gray-700 shadow-xl bg-clip-border rounded-xl w-96 md:m-8 p-4 scale-on-hover">
   <div
@@ -32,6 +35,7 @@ for the Stanford Seed spark Cohort 06 Batch
 
 
 </div>  
+</Fade>
 </>
   )
 }

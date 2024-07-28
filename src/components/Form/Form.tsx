@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
+import { Fade } from "react-awesome-reveal";
 function Form() {
   const [state, handleSubmit] = useForm("mgvwvbwq");
   if (state.succeeded) {
@@ -8,6 +9,7 @@ function Form() {
   }
   return (
     <>
+    <Fade cascade damping={0.1}>
     <br></br>
     <br></br>
     <p className="text-4xl poppins-bold gradient text-center" id="contact">LETS GET IN TOUCH !</p><br></br>
@@ -107,7 +109,7 @@ function Form() {
 </button>
   </div>
 </form>
-
+</Fade>
     </>
   );
 }

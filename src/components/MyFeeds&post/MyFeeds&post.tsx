@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './MyFeeds&post.module.css';
 import postImage from '../../assets/MyFeeds&postImage.svg';
-
+import { Fade } from "react-awesome-reveal";
 const MyFeedsAndPosts: React.FC = () => {
 
     return (
-        <div className={styles.container}>
 
+        <div className={styles.container}>
+<Fade cascade damping={0.1}> 
             <p className={styles.title}>My Feed & Posts</p>
             <p className={styles.subtitle}>Know more about the latest feeds and post on my socials</p>
 
@@ -35,7 +36,7 @@ const MyFeedsAndPosts: React.FC = () => {
                     </div>
                 </div>
             </div>
-
+            </Fade>
         </div>
     );
 };

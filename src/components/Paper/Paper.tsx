@@ -2,9 +2,11 @@
 import image32 from '../../assets/image 32.webp';
 import image33 from '../../assets/image 33.webp';
 import image39 from '../../assets/image 39.webp';
+import { Fade } from "react-awesome-reveal";
 const Paper = () => {
   return (
     <>
+    <Fade cascade damping={0.1}>
   <p className="text-4xl gradient text-center poppins-bold mt-64 md:mt-4">Projects & Research Papers</p><br></br>
       <p className='text-center ml-8 mr-8 dm-sans-400 '>These are the list of my research papers & articles published in various socials</p><br></br>
       <div className='poppins-extralight'>
@@ -28,6 +30,7 @@ NavIC (Navigation with Indian Constellation)
         </div>
       </div>
     </div>
+    </Fade>
     </>
   );
 };

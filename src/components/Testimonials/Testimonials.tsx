@@ -4,7 +4,7 @@ import sampleImage from '../../assets/Ellipse 148.svg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { Fade } from "react-awesome-reveal";
 
 
 const testimonialsData = [
@@ -83,6 +83,7 @@ const Testimonials: React.FC = () => {
   };
 
   return (
+    <Fade cascade damping={0.1}>
     <div className={styles.testimonialsSection} id="testimonials">
       <p className={styles.sectionTitle}>Testimonials</p>
       <div className={styles.testimonialsContainer}>
@@ -111,6 +112,7 @@ const Testimonials: React.FC = () => {
         </Slider>
       </div>
     </div>
+    </Fade>
   );
 };
 

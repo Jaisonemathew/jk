@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Articles&Blogs.module.css';
 import sampleImage from '../../assets/A&B_image.svg';
-
+import { Fade } from "react-awesome-reveal";
 interface Article {
   title: string;
   description: string;
@@ -29,6 +29,7 @@ const articlesData: Article[] = [
 
 const ArticlesAndBlogs: React.FC = () => {
   return (
+    <Fade cascade damping={0.1}>
     <div className={styles.articlesBlogsSection} id="articles">
       <p className={styles.sectionTitle}>Articles & Blogs</p>
       {articlesData.map((article, index) => (
@@ -48,6 +49,7 @@ const ArticlesAndBlogs: React.FC = () => {
         </div>
       ))}
     </div>
+    </Fade>
   );
 };
 
