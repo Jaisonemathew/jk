@@ -81,7 +81,9 @@
 
 
 }
-
+.mybtn{
+  color: #4646F9;
+}
 
 
 @media (max-width:600px){
@@ -116,10 +118,58 @@
     font-size:12px;
     justify-content: space-between;
   }
+  .mybtn{
+    font-size: 12px;
+  }
 }
 
 
+
+
 @media screen and (min-width:601px) and (max-width: 800px) {
+  .articleCard {
+    flex-direction: column;
+  }
+  .articlesBlogsSection {
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 40px;
+  }
+
+  .articleTitle {
+    font-size: 18px;
+  }
+
+  .articleDescription {
+    font-size: 15px;
+  }
+
+  .articleFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+
+  .articleFooter span {
+    margin-bottom: 5px;
+  }
+  .articleImage {
+    width:100%;
+    object-fit: cover;
+  }
+  .articleContent {
+    width: 96%;
+    padding: 10px;
+  }
+  .mybtn{
+    font-size: 15px;
+  }
+
+
+}
+@media screen and (min-width:801px) and (max-width: 1000px) {
   .articleCard {
     flex-direction: column;
   }
@@ -153,33 +203,36 @@
     object-fit: cover;
   }
   .articleContent {
-    width: 96%;
+    width: 99%;
     padding: 10px;
+  }
+  .mybtn{
+    font-size: 18px;
   }
 
 
 }
-@media screen and (min-width:801px) and (max-width: 1200px) {
+@media screen and (min-width:1001px) and (max-width: 1200px) {
   .articlesBlogsSection {
     padding: 20px;
   }
 
   .sectionTitle {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .articleTitle {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .articleDescription {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .articleFooter {
     flex-direction: column;
     align-items: flex-start;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .articleFooter span {
@@ -187,11 +240,15 @@
   }
   .articleImage {
     width:50%;
+ 
     object-fit: cover;
   }
   .articleContent {
     width: 50%;
     padding: 10px;
+  }
+  .mybtn{
+    font-size: 12px;
   }
 
 
@@ -206,7 +263,7 @@
   }
 
   .articleTitle {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .articleDescription {
@@ -230,6 +287,49 @@
     width: 50%;
     padding: 10px;
   }
+  .mybtn{
+    font-size: 15px;
+  }
 
+
+
+}
+@media screen and (min-width:1401px) and (max-width: 1600px) {
+  .articlesBlogsSection {
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 45px;
+  }
+
+  .articleTitle {
+    font-size: 20px;
+  }
+
+  .articleDescription {
+    font-size: 18px;
+  }
+
+  .articleFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  .articleFooter span {
+    margin-bottom: 5px;
+  }
+  .articleImage {
+    width:50%;
+    object-fit: cover;
+  }
+  .articleContent {
+    width: 50%;
+    padding: 10px;
+  }
+  .mybtn{
+    font-size: 18px;
+  }
 
 }
