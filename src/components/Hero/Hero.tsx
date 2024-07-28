@@ -1,12 +1,11 @@
 
 import './Hero.css';
 import { FaPinterest ,FaLinkedin, FaTwitter, FaInstagram,FaYoutube, FaEnvelope } from 'react-icons/fa';
+
 import heroImage from '../../assets/image.webp';
-import { Fade } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <>
-<Fade cascade damping={0.1}>
     <div className="md:flex m-4">
         <div className="md:w-1/2 lg:max-w-[615px] lg:max-h-[900px] mt-5 scale-on-hover">
         <img src={heroImage} alt="Description" />
@@ -71,7 +70,6 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
 </div>
     </div>
     <div className='lg:mb-20'></div>
-    </Fade>
   </>
   );
 };
