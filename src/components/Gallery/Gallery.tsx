@@ -89,7 +89,7 @@ const Gallery: React.FC = () => {
 
   return (
     <>
-   <p className="text-4xl gradient text-center poppins-bold mt-10">GALLERY</p><br></br>
+   <p className="text-4xl gradient text-center poppins-bold mt-10 ">GALLERY</p><br></br>
     <GalleryContainer>
       <ImageContainer>
         <ImageLink href={imageLinks[currentIndex]} target="_blank" rel="noopener noreferrer">
