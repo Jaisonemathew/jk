@@ -98,8 +98,21 @@ const ArticlesAndBlogs: React.FC = () => {
                   <p className={styles.articleDescription}>{article.description}</p>
 
                   <a href={index === 0
-                    ? "https://www.linkedin.com/pulse/why-casual-gaming-big-challenge-web3-meta-joshua-kanatt/?trackingId=ioQG2iftQFOqFS00NDox5Q%3D%3D"
-                    : "https://www.linkedin.com/pulse/why-dao-most-important-blockchain-application-business-joshua-kanatt/?trackingId=RDHsfw2SQs%2BwoBOCIHuB0w%3D%3D"} >
+                    ? "https://www.linkedin.com/pulse/future-film-industry-14-ways-artificial-intelligence-game-kanatt-wzcsc/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                    : index === 1
+                      ? "https://www.linkedin.com/pulse/revolutionising-film-industry-unlikely-fusion-unreal-engine-kanatt-vmgsc/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                      : index === 2
+                        ? "https://www.linkedin.com/pulse/proud-moment-india-indias-very-own-desi-gps-navic-why-joshua-kanatt/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                    : index===3
+                    ? "https://www.linkedin.com/pulse/overview-blockchain-technology-2022-statistics-market-joshua-kanatt/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                    : index===4
+                    ? "https://www.linkedin.com/pulse/why-dao-most-important-blockchain-application-business-joshua-kanatt/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                    : index===5
+                    ? "https://www.linkedin.com/pulse/how-ai-helped-argentina-historic-win-fifa-world-cup-2022-kanatt/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+                    : index===6
+                    ? "https://www.linkedin.com/pulse/how-ai-helped-argentina-historic-win-fifa-world-cup-2022-kanatt/?trackingId=l3mm2XYhRKWnO6WaM7ULNA%3D%3D"
+
+                    : ""} >
                     <button className={styles.mybtn}>Read More...</button>
                   </a>
                 </span>
