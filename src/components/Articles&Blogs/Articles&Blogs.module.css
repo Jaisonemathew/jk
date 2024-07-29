@@ -24,7 +24,7 @@
 }
 
 .articleCard {
-  display: flex;
+  display: flex !important;
   background: linear-gradient(0deg,#1F1F1F,#000000,#1E1E1E);
   border:2px solid #000000;
   margin-bottom: 20px;
@@ -83,7 +83,13 @@
 }
 .mybtn{
   color: #4646F9;
+  font-size: 20px;
 }
+.mybtn:hover{
+  
+  font-size: 21px;
+}
+
 
 
 @media (max-width:600px){
@@ -121,6 +127,11 @@
   .mybtn{
     font-size: 12px;
   }
+  .mybtn:hover{
+  
+    font-size: 13px;
+  }
+
 }
 
 
@@ -166,6 +177,12 @@
   .mybtn{
     font-size: 15px;
   }
+  .mybtn:hover{
+  
+    font-size: 16px;
+  }
+ 
+  
 
 
 }
@@ -209,6 +226,11 @@
   .mybtn{
     font-size: 18px;
   }
+  .mybtn:hover{
+  
+    font-size: 19px;
+  }
+
 
 
 }
@@ -250,6 +272,11 @@
   .mybtn{
     font-size: 12px;
   }
+  .mybtn:hover{
+  
+    font-size: 13px;
+  }
+
 
 
 }
@@ -290,6 +317,11 @@
   .mybtn{
     font-size: 15px;
   }
+  .mybtn:hover{
+  
+    font-size: 16px;
+  }
+
 
 
 
@@ -331,5 +363,10 @@
   .mybtn{
     font-size: 18px;
   }
+  .mybtn:hover{
+  
+    font-size: 19px;
+  }
+
 
 }
