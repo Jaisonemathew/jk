@@ -306,7 +306,7 @@
   }
   .text_box{
     width:150px;
-    height:160px;
+    height:250px;
     margin: 10px 0px;
    
     
@@ -366,6 +366,16 @@
    .SectionTitle{
     position:relative;
    }
+   .left_container_arrow{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgb(254, 254, 254);
+   }
+   .right_container_arrow{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid rgb(255, 255, 255);
+   }
   
   
 
@@ -401,7 +411,7 @@
   }
   .text_box{
     width:240px;
-    height:140px;
+    height:230px;
     margin: 0px;
 
   }
@@ -446,6 +456,16 @@
    }
    .SectionTitle{
     position:relative;
+   }
+   .left_container_arrow{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgb(254, 254, 254);
+   }
+   .right_container_arrow{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid rgb(255, 255, 255);
    }
  
  
@@ -522,6 +542,16 @@
    }
    .SectionTitle{
     position:relative;
+   }
+   .left_container_arrow{
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid rgb(254, 254, 254);
+   }
+   .right_container_arrow{
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 11px solid rgb(255, 255, 255);
    }
  
  
@@ -600,6 +630,16 @@
  .container{
   padding: 10px 0px;
  }
+ .left_container_arrow{
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid rgb(254, 254, 254);
+ }
+ .right_container_arrow{
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid rgb(255, 255, 255);
+ }
 
  
  
@@ -645,6 +685,20 @@
   height:60px;
   top:10px
  }
+ .left_container_arrow{
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-right: 13px solid rgb(254, 254, 254);
+ }
+ .right_container_arrow{
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 13px solid rgb(255, 255, 255);
+ }
+
+ 
+ 
+
  
 
 }
@@ -687,6 +741,16 @@
   width:60px;
   height:60px;
   top:10px
+ }
+ .left_container_arrow{
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 14px solid rgb(254, 254, 254);
+ }
+ .right_container_arrow{
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid rgb(255, 255, 255);
  }
  
 
