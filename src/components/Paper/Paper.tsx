@@ -1,7 +1,5 @@
-
-import image32 from '../../assets/image 32.webp';
-import image33 from '../../assets/image 33.webp';
-import image39 from '../../assets/image 39.webp';
+import image33 from '../../assets/image 33.png';
+import image34 from '../../assets/image 34.png';
 import { Fade } from "react-awesome-reveal";
 const Paper = () => {
   return (
@@ -11,23 +9,24 @@ const Paper = () => {
       <p className='text-center ml-8 mr-8 dm-sans-400 '>These are the list of my research papers & articles published in various socials</p><br></br>
       <div className='poppins-extralight'>
       <div className="md:flex ml-8 mr-8">
-      <div className="text-center m-4 scale-on-hover" >
-          <img src={image39} alt="test"/>
-          <p>Advanced Neural Image Sensing and noise consilation builder
-NavIC (Navigation with Indian Constellation)
+      <a href="https://www.linkedin.com/in/joshuakanatt/overlay/1711184089483/single-media-viewer/?profileId=ACoAACDNnyYBET3QMeh03JN14gIQyYin9lLCOCA" target="_blank" rel="noopener noreferrer">
+      <div className="text-center m-4 scale-on-hover hover:text-nblack hover:bg-nwhite" >
+          <img src={image33} alt="Lead Score Analysis"/>
+          <p>Beyond Single Models:
+Utilising 14 Diverse Machine Learning
+Models to Advance Breast Cancer
+Diagnosis
 </p>
         </div>
-        <div className="text-center m-4 scale-on-hover">
-          <img src={image33} alt="test"/>
-          <p>Advanced Neural Image Sensing and noise consilation builder
-NavIC (Navigation with Indian Constellation)
-</p>
+        </a>
+        <a href="https://www.linkedin.com/in/joshuakanatt/overlay/1711178976596/single-media-viewer/?type=DOCUMENT&profileId=ACoAACDNnyYBET3QMeh03JN14gIQyYin9lLCOCA" target="_blank" rel="noopener noreferrer">
+        <div className="text-center m-4 scale-on-hover hover:text-nblack hover:bg-nwhite">
+          <img src={image34} alt="Breast Cancer Detection"/>
+          <p>LEAD SCORE
+DATA ANALYSIS:
+Find Your Perfect Customer</p>
         </div>
-        <div className="text-center m-4 scale-on-hover"> 
-          <img src={image32} alt="test"/>
-           <p>Advanced Neural Image Sensing and noise consilation builder
-          NavIC (Navigation with Indian Constellation)</p> 
-        </div>
+        </a>
       </div>
     </div>
     </Fade>

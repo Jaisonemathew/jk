@@ -33,9 +33,10 @@ const MyFeedsAndPosts: React.FC = () => {
                             <p>QUORA</p>
                         </span>
                         <p className={styles.secondPara}>Very easy to use and also a good way to get your first card. The Zopa app is a very friendly and amazing app. It has a really easy and detailed design to the app. The app gives you a sense of security and it's easy for parental control also. It is a very helpful app for students who are not working and also for people under the age of 18.</p>
-                    </div>
+                    </div>                
                 </div>
             </div>
+            
             </Fade>
         </div>
     );
