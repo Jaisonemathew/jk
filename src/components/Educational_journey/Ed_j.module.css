@@ -2,7 +2,7 @@
   
   position: relative;
   max-width: 1800px;
-  margin: 100px auto;
+  margin: 100px 300px;
 }
 
 .container {
@@ -55,7 +55,7 @@
   position: relative;
   border-radius: 6px;
   width:600px;
-  height:600px;
+  height:460px;
   margin:0px 0px;
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -281,6 +281,10 @@
 
 
 @media screen and (max-width:430px){
+  .timeline{
+    margin: 80px 75px;
+
+  }
   .timeline::after{
     left:148px
   }
@@ -302,7 +306,7 @@
   }
   .text_box{
     width:150px;
-    height:230px;
+    height:160px;
     margin: 10px 0px;
    
     
@@ -372,6 +376,10 @@
 
 
 @media screen and (min-width:431px) and (max-width:800px){
+  .timeline{
+    margin: 120px 20px;
+
+  }
   .timeline::after{
     left:240px
   }
@@ -393,7 +401,7 @@
   }
   .text_box{
     width:240px;
-    height:220px;
+    height:140px;
     margin: 0px;
 
   }
@@ -444,6 +452,10 @@
 
 }
 @media screen and (min-width:801px) and (max-width:1000px){
+  .timeline{
+    margin: 120px 160px;
+
+  }
   .timeline::after{
     left:269px
   }
@@ -517,6 +529,10 @@
 
 }
 @media screen and (min-width:1001px) and (max-width:1200px){
+  .timeline{
+    margin: 120px 250px;
+
+  }
  .timeline::after{
   left:270px
 }
@@ -589,7 +605,11 @@
  
 
 }
-@media screen and (min-width:1201px) and (max-width:1600px){
+@media screen and (min-width:1201px) and (max-width:1400px){
+  .timeline{
+    margin: 120px 170px;
+
+  }
  .text_box h3{
   font-size: 25px;
  }
@@ -602,7 +622,50 @@
  }
  .text_box{
   width:450px;
-  height:500px;
+  height:250px;
+  padding:10px 50px;
+  margin:0px 0px;
+ }
+ .timeline::after{
+  left: 500px;
+ }
+ .right_container{
+  left:335px;
+ }
+ .right_container img{
+  left:380px;
+  width:60px;
+  height:60px;
+  top:10px;
+  
+ }
+ .left_container img{
+  left:-45px;
+  width:60px;
+  height:60px;
+  top:10px
+ }
+ 
+
+}
+@media screen and (min-width:1401px) and (max-width:1600px){
+  .timeline{
+    margin: 120px 300px;
+
+  }
+ .text_box h3{
+  font-size: 25px;
+ }
+ .text_box p strong{
+  font-size: 20px;
+ }
+ .text_box p{
+  font-size: 20px;
+  margin-right: 10px;
+ }
+ .text_box{
+  width:450px;
+  height:280px;
   padding:10px 50px;
   margin:0px 0px;
  }
