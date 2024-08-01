@@ -86,7 +86,7 @@ const ArticlesAndBlogs: React.FC = () => {
   return (
     <Fade>
       <div className={styles.articlesBlogsSection} id="articles">
-        <p className={styles.sectionTitle}>Articles & Blogs</p>
+        <p className="mt-10 text-4xl poppins-bold gradient text-center">Articles & Blogs</p><br></br>
         <Slider {...settings} className={styles.slickslider}>
           {articlesData.map((article, index) => (
             <div className={styles.articleCard} key={index}>

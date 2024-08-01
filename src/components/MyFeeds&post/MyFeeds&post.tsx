@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './MyFeeds&post.module.css';
 import image12 from '../../assets/Gallery/12.jpg';
 import image13 from '../../assets/Gallery/13.jpg';
+import image14 from '../../assets/Gallery/14.jpg';
 import { Fade } from "react-awesome-reveal";
 
 const MyFeedsAndPosts: React.FC = () => {
@@ -37,10 +38,21 @@ const MyFeedsAndPosts: React.FC = () => {
             <p>LINKEDIN</p>
         </span>
         <p className={styles.secondPara}>
-            Wonderful meeting Ed-tech Legend BYJU RAVEENDRAN<br />
-            #entrepreneur #tech #byjus #yourstory #techsparks2022 #edtech
+            Wonderful meeting Ed-tech Legend BYJU RAVEENDRAN
         </p>
         <img src={image12} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_entrepreneur-tech-byjus-activity-6997232081630105600-ovNN?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        I'm thrilled to announce that I've been selected for the prestigious Stanford Seed Program 2023 for startups. This is a wonderful accomplishment and a great chance for me to develop, learn, and advance GAMERS TAG Read More...
+        </p>
+        <img src={image14} alt="Post" className={styles.postImage} />
     </div>
 </a>
 
