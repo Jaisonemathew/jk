@@ -10,7 +10,7 @@ const Paper = () => {
       <div className='poppins-extralight'>
       <div className="md:flex ml-8 mr-8">
       <a href="https://www.linkedin.com/in/joshuakanatt/overlay/1711184089483/single-media-viewer/?profileId=ACoAACDNnyYBET3QMeh03JN14gIQyYin9lLCOCA" target="_blank" rel="noopener noreferrer">
-      <div className="text-center m-4 scale-on-hover hover:text-nblack hover:bg-nwhite" >
+      <div className="text-center m-4 scale-on-hover" >
           <img src={image33} alt="Lead Score Analysis"/>
           <p>Beyond Single Models:
 Utilising 14 Diverse Machine Learning
@@ -20,7 +20,7 @@ Diagnosis
         </div>
         </a>
         <a href="https://www.linkedin.com/in/joshuakanatt/overlay/1711178976596/single-media-viewer/?type=DOCUMENT&profileId=ACoAACDNnyYBET3QMeh03JN14gIQyYin9lLCOCA" target="_blank" rel="noopener noreferrer">
-        <div className="text-center m-4 scale-on-hover hover:text-nblack hover:bg-nwhite">
+        <div className="text-center m-4 scale-on-hover ">
           <img src={image34} alt="Breast Cancer Detection"/>
           <p>LEAD SCORE
 DATA ANALYSIS:
