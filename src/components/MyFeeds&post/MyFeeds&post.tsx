@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './MyFeeds&post.module.css';
-import postImage from '../../assets/MyFeeds&postImage.svg';
+// import postImage from '../../assets/MyFeeds&postImage.svg';
 import image12 from '../../assets/Gallery/12.jpg';
+import image13 from '../../assets/Gallery/13.jpg';
 import { Fade } from "react-awesome-reveal";
 
 const MyFeedsAndPosts: React.FC = () => {
@@ -17,23 +18,34 @@ const MyFeedsAndPosts: React.FC = () => {
                         <span className={styles.highlight}>Facinated</span>
                     </div>
                     <div className={styles.postsContainer}>
-                        <div className={styles.post}>
-                            <span className={styles.headingOfPost}>
-                                <h3>Joshua Kanatt</h3>
-                                <p>LINKEDIN</p>
-                            </span>
-                            <p className={styles.secondPara}>Wonderful meeting Ed-tech Legend BYJU RAVEENDRAN<br></br>
- #entrepreneur #tech #byjus #yourstory #techsparks2022 #edtech</p>
-                            <img src={image12} alt="Post" className={styles.postImage} />
-                        </div>
-                        <div className={styles.post}>
-                            <span className={styles.headingOfPost}>
-                                <h3>Joshua Kanatt</h3>
-                                <p>INSTAGRAM</p>
-                            </span>
-                            <p className={styles.secondPara}>Very easy to use and data is good way to get your first card. The Zopa app is very friendly and amazing app. wew90j c wke pokwokwoekowkowkoewoekwoeowkeowoek</p>
-                            <img src={postImage} alt="Post" className={styles.postImage} />
-                        </div>
+                        
+                    <a href="https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+            Meeting great minds like Shradha Sharma, Dev Bajaj, Aditi Surana Swarup Bose Bhavik Koladiya at YourStory Techsparks 2023 was exciting because I got to learn about their inspiring journey and perceptive views on the convergence of technology and entrepreneurship.
+        </p>
+        <img src={image13} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+
+<a href="https://www.linkedin.com/posts/joshuakanatt_entrepreneur-tech-byjus-activity-6997232081630105600-ovNN?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+            Wonderful meeting Ed-tech Legend BYJU RAVEENDRAN<br />
+            #entrepreneur #tech #byjus #yourstory #techsparks2022 #edtech
+        </p>
+        <img src={image12} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+
                         <div className={styles.post}>
                             <span className={styles.headingOfPost}>
                                 <h3>Joshua Kanatt</h3>
