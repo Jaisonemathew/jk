@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MyFeeds&post.module.css';
-import postImage from '../../assets/MyFeeds&postImage.svg';
 import image12 from '../../assets/Gallery/12.jpg';
 import image13 from '../../assets/Gallery/13.jpg';
 import { Fade } from "react-awesome-reveal";
