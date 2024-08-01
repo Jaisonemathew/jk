@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './MyFeeds&post.module.css';
-// import postImage from '../../assets/MyFeeds&postImage.svg';
+import postImage from '../../assets/MyFeeds&postImage.svg';
 import image12 from '../../assets/Gallery/12.jpg';
 import image13 from '../../assets/Gallery/13.jpg';
 import { Fade } from "react-awesome-reveal";
@@ -18,7 +18,6 @@ const MyFeedsAndPosts: React.FC = () => {
                         <span className={styles.highlight}>Facinated</span>
                     </div>
                     <div className={styles.postsContainer}>
-                        
                     <a href="https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
     <div className={styles.post}>
         <span className={styles.headingOfPost}>

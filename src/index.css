@@ -309,6 +309,3 @@ background: linear-gradient(to top, #ACACAC 0%, #E8E8E8 48%, #9C9C9C 100%);
 .scale-on-hover:hover {
   transform: scale(1.1); /* Scale up the element */
 }
-body {
-  overflow-x: hidden;
-}

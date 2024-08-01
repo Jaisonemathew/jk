@@ -84,7 +84,14 @@
 
 }
 
-
+.post {
+  background:linear-gradient(0deg,#171717,#000000,#1F1F1F);
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
 .post p{
   letter-spacing: -1px;
   word-spacing: -2px;
@@ -100,7 +107,6 @@
   font-size: 18px;
   margin-bottom: 0.5rem;
 }
-
 
 .post p {
   margin-bottom: 1rem;
@@ -341,13 +347,7 @@
 .post {
   flex: 0 0 auto;
   scroll-snap-align: start;
-  margin-bottom: 16px;
-  background:linear-gradient(0deg,#171717,#000000,#1F1F1F);
-  padding: 20px;
-  border-radius: 10px;
-  width: 45%;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 16px; /* Adjust as needed */
 }
 .post:hover{
   background: white;
