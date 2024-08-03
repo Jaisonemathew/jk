@@ -38,7 +38,7 @@ const EducationJourney: React.FC = () => {
   const [showStartup, setShowStartup] = useState(false);
 
   const handleCareerClick = () => {
-    setShowCareer(true);
+    setShowCareer(!showCareer);
     setShowEducation(false);
     setShowStartup(false);
   };
