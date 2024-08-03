@@ -196,7 +196,7 @@ const EducationJourney: React.FC = () => {
       </div>
 
 
-      <div className={`${styles.tl} ${showCareer ? '' : styles.hidden}`}>
+      <div className={`${styles.tl} `}>
         <div className={`${styles.right_con} ${styles.right_con_1}`}>
           <span className={styles.right_con_arrow}></span>
           <div className={styles.entry}>
