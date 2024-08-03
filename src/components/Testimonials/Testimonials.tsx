@@ -114,16 +114,13 @@ const testimonialsData = [
 
 const Testimonials: React.FC = () => {
   const settings = {
-    className: "center",
+    dots: true,
     infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3.05,
-    swipeToSlide: true,
-    afterChange: function (index: number) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    },
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1400,
