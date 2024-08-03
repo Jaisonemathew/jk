@@ -13,9 +13,9 @@ import CISCO from '../../assets/CISCO.svg';
 import MICROSOFT from '../../assets/MICROSOFT.svg';
 import RAZORPAY from '../../assets/RAZORPAY.svg';
 import NASSCOM from '../../assets/NASSCOM.svg';
-import gamersTag from '../../assets/Logo Gamers tag 1.png'
-import btechTraders from '../../assets/btech 1.png'
-import keltron from '../../assets/keltron 1.png'
+import gamersTag from '../../assets/Logo Gamers tag 1.png';
+import btechTraders from '../../assets/btech 1.png';
+import keltron from '../../assets/keltron 1.png';
 
 interface EducationEntry {
   institution: string;
@@ -33,6 +33,7 @@ interface StartupEntry {
 }
 
 const EducationJourney: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<'career' | 'education' | 'startup'>('career');
   const [showCareer, setShowCareer] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
   const [showStartup, setShowStartup] = useState(false);
@@ -86,22 +87,18 @@ const EducationJourney: React.FC = () => {
       duration: "Feb 2020 - Apr 2021",
       logo: IIITB
     },
-
     {
       institution: "Hindusthan College of Engineering and Technology",
       degree: "Bachelor of Engineering, Computer Science",
       duration: "2015 - 2019",
       logo: HINDUSTHAN_UNIV
     },
-
-
     {
       institution: "Karunya International Higher Secondary School",
       degree: "High School, Computer Science",
       duration: "Jun 2013 - Jun 2015",
       logo: karunya
     },
-
   ];
 
   const startupData: StartupEntry[] = [
@@ -149,16 +146,40 @@ const EducationJourney: React.FC = () => {
     }
   ];
 
-
-
   return (
     <>
       <div className={styles.SectionTitle} id="my-journey">
-        <p onClick={handleCareerClick}>Professional Career</p>
+        <p
+          onClick={() => {
+            setActiveTab('career');
+            handleCareerClick();
+          }}
+          className={`${styles.tab} ${activeTab === 'career' ? styles.activeTab : ''}`}
+        >
+          Professional Career
+        </p>
 
-        <p onClick={handleEducationClick}>Education Career</p>
-        <p onClick={handleStartupClick}>Startup Incubation</p>
 
+        <p
+          onClick={() => {
+            setActiveTab('education');
+            handleEducationClick();
+          }}
+          className={`${styles.tab} ${activeTab === 'education' ? styles.activeTab : ''}`}
+        >
+          Education Career
+        </p>
+
+        <p
+          onClick={() => {
+            setActiveTab('startup');
+            handleStartupClick();
+
+          }}
+          className={`${styles.tab} ${activeTab === 'startup' ? styles.activeTab : ''}`}
+        >
+          Startup Incubation
+        </p>
       </div>
 
       <div className={`${styles.timeline} ${showEducation ? '' : styles.hidden}`}>
@@ -195,7 +216,6 @@ const EducationJourney: React.FC = () => {
         ))}
       </div>
 
-
       <div className={`${styles.tl} ${showCareer ? '' : styles.hidden}`}>
         <div className={`${styles.right_con} ${styles.right_con_1}`}>
           <span className={styles.right_con_arrow}></span>
@@ -203,32 +223,26 @@ const EducationJourney: React.FC = () => {
             <div className={styles.right_con_logo}>
               <img src={gamersTag} alt="Gamers Tag" />
             </div>
-
             <div className={styles.details}>
-
               <h3>GAMERS TAG</h3>
-              <p className={styles.duration}>Full-time </p>
-              <p className={styles.duration}>4 yrs 11 months </p>
+              <p className={styles.duration}>Full-time</p>
+              <p className={styles.duration}>4 yrs 11 months</p>
               <br />
               <p className={styles.designation}>Founder & CEO</p>
               <p className={styles.duration}>May 2021 - Present</p>
               <p className={styles.location}>Kerala, India</p>
               <br />
-
               <p className={styles.designation}>Head of Product Development & Product Architect</p>
-              <p className={styles.duration} >Jul 2020 - May 2021 · 11 mos</p>
+              <p className={styles.duration}>Jul 2020 - May 2021 · 11 mos</p>
               <p className={styles.location}>Kochi, Kerala, India</p>
               <br />
               <p className={styles.designation}>Research Development Lead</p>
               <p className={styles.duration}>Jul 2019 - Jun 2020 · 1 yr</p>
               <p className={styles.location}>Kochi, Kerala, India</p>
-
-
-
             </div>
           </div>
         </div>
-        
+
         <div className={`${styles.left_con} ${styles.left_con_1}`}>
           <div className={styles.entry}>
             <span className={styles.left_con_arrow}></span>
@@ -240,43 +254,32 @@ const EducationJourney: React.FC = () => {
               <p className={styles.duration}>Full-time · 3 yrs</p>
               <p className={styles.duration}>8 months</p>
               <br />
-              <p className={styles.designation}>Product </p>
-              <p className={styles.designation}>Development Lead </p>
-
-              <p className={styles.duration}>May 2019 - Feb 2021 </p>
-              <p className={styles.duration}>1 yr 10 mos </p>
+              <p className={styles.designation}>Product Development Lead</p>
+              <p className={styles.duration}>May 2019 - Feb 2021</p>
+              <p className={styles.duration}>1 yr 10 mos</p>
               <br />
               <p className={styles.designation}>Product Designer Intern</p>
-              <p className={styles.duration}>Jul 2017 - Apr 2019 </p>
+              <p className={styles.duration}>Jul 2017 - Apr 2019</p>
               <p className={styles.duration}>1 yr 10 months</p>
-
-
             </div>
           </div>
         </div>
 
-
         <div className={`${styles.right_con} ${styles.right_con_2}`}>
           <div className={styles.entry}>
             <span className={styles.right_con_arrow}></span>
-            <div className={styles.right_con_logo}>
-
-            </div>
             <div className={styles.details}>
-              <h3>PARKit - </h3>
-              <p className={styles.designation}>Advanced Parking System</p>
+              <h3>PARKit - Advanced Parking System</h3>
               <p className={styles.designation}>Research Lead</p>
               <p className={styles.designation}>Self-employed</p>
-              <p className={styles.duration}>Feb 2017 - Jun 2020 </p>
+              <p className={styles.duration}>Feb 2017 - Jun 2020</p>
               <p className={styles.duration}>3 yrs 5 mos</p>
               <p className={styles.duration}>Kerala, India · Hybrid</p>
-
             </div>
           </div>
         </div>
 
         <div className={`${styles.left_con} ${styles.left_con_2}`}>
-
           <div className={styles.entry}>
             <span className={styles.left_con_arrow}></span>
             <div className={styles.left_con_logo}>
@@ -289,18 +292,12 @@ const EducationJourney: React.FC = () => {
               <p className={styles.duration}>Oct 2017 - Nov 2017</p>
               <p className={styles.duration}>2 months</p>
               <p className={styles.duration}>Thrissur, Kerala, India</p>
-
             </div>
           </div>
         </div>
-
       </div>
-
-
-
-
     </>
   );
-}
+};
 
 export default EducationJourney;

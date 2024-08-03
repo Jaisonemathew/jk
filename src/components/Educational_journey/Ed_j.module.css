@@ -22,12 +22,14 @@
 
 
 }
-.left_con{
+
+.left_con {
   animation: movedown 1s linear forwards;
   opacity: 0;
 
 }
-.right_con{
+
+.right_con {
   animation: movedown 1s linear forwards;
   opacity: 0;
 
@@ -47,18 +49,21 @@
 
 
 
-.right_con_1{
+.right_con_1 {
   animation-delay: 0s;
 }
-.left_con_1{
+
+.left_con_1 {
   animation-delay: 2s;
 }
-.right_con_2{
+
+.right_con_2 {
   animation-delay: 3s;
 
 }
-.left_con_2{
-  animation-delay:5s;
+
+.left_con_2 {
+  animation-delay: 5s;
 }
 
 .container:nth-child(1) {
@@ -219,22 +224,7 @@
   position: relative;
 }
 
-.SectionTitle p {
-  cursor: pointer;
-  background: linear-gradient(56deg, #ACACAC, #E8E8E8, #9C9C9C);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 28px;
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 158%;
-  letter-spacing: 3px;
-}
-
-.SectionTitle p:first-child {
+.tab {
   background: linear-gradient(56deg, #ACACAC, #E8E8E8, #9C9C9C);
   background-clip: text;
   color: transparent;
@@ -242,7 +232,23 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 28px;
+  position: relative;
+}
+
+
+
+
+.activeTab {
+  background: linear-gradient(84deg, #4646F9, #9130F4, #5941F8, #6C3BF7, #9130F4);
+  background-clip: text;
+  color: transparent;
+
   font-size: 40px;
+  font-weight: bold;
+}
+
+.SectionTitle p:first-child {
   position: relative;
 }
 
@@ -254,14 +260,13 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  width: 100%;
+  width: 0;
   color: transparent;
   white-space: nowrap;
   transition: width 1s linear;
 }
-
-.SectionTitle p:nth-child(2):hover ~ .SectionTitle p:first-child::before {
-  width: 0% !important; 
+.SectionTitle p:first-child:hover::before{
+  width:100%;
 }
 
 
@@ -480,11 +485,11 @@
     left: 148px
   }
 
-  .SectionTitle p:first-child {
+  .activeTab {
     font-size: 12px;
   }
 
-  .SectionTitle p {
+  .tab {
     font-size: 10px;
   }
 
@@ -606,11 +611,11 @@
     left: 240px
   }
 
-  .SectionTitle p:first-child {
-    font-size: 18px;
+  .activeTab{
+    font-size: 18px !important;
   }
 
-  .SectionTitle p {
+  .tab {
     font-size: 14px;
   }
 
@@ -694,9 +699,11 @@
     border-bottom: 10px solid transparent;
     border-left: 10px solid rgb(255, 255, 255);
   }
-  .tl{
-    margin:80px 70px;
+
+  .tl {
+    margin: 80px 70px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
@@ -721,34 +728,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 15px;
 
   }
 
   .details .duration {
-  
+
     font-size: 11px;
   }
 
   .details .location {
-   
+
     font-size: 13px;
 
   }
 
   .left_con {
-   
+
     left: -60px;
     width: 200px;
     height: 340px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 200px;
     height: 450px;
     left: 170px;
@@ -756,7 +763,7 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     border-left: 12px solid rgb(255, 255, 255);
@@ -764,11 +771,11 @@
   }
 
   .left_con_arrow {
-   
+
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     border-right: 12px solid rgb(254, 254, 254);
-   
+
 
   }
 
@@ -791,11 +798,11 @@
     left: 269px
   }
 
-  .SectionTitle p:first-child {
-    font-size: 22px;
+  .activeTab {
+    font-size: 22px !important;
   }
 
-  .SectionTitle p {
+  .tab {
     font-size: 18px;
   }
 
@@ -879,9 +886,11 @@
     border-bottom: 11px solid transparent;
     border-left: 11px solid rgb(255, 255, 255);
   }
-  .tl{
-    margin:80px 250px;
+
+  .tl {
+    margin: 80px 250px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
@@ -906,34 +915,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 16px;
 
   }
 
   .details .duration {
-  
+
     font-size: 12px;
   }
 
   .details .location {
-   
+
     font-size: 14px;
 
   }
 
   .left_con {
-   
+
     left: -60px;
     width: 200px;
     height: 360px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 200px;
     height: 490px;
     left: 170px;
@@ -941,7 +950,7 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-left: 13px solid rgb(255, 255, 255);
@@ -949,11 +958,11 @@
   }
 
   .left_con_arrow {
-   
+
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-right: 13px solid rgb(254, 254, 254);
-   
+
 
   }
 
@@ -974,11 +983,11 @@
     left: 270px
   }
 
-  .SectionTitle p:first-child {
-    font-size: 25px;
+  .activeTab {
+    font-size: 25px !important;
   }
 
-  .SectionTitle p {
+  .tab {
     font-size: 20px;
   }
 
@@ -1063,9 +1072,10 @@
     border-left: 12px solid rgb(255, 255, 255);
   }
 
-  .tl{
-    margin:80px 350px;
+  .tl {
+    margin: 80px 350px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
@@ -1090,34 +1100,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 17px;
 
   }
 
   .details .duration {
-  
+
     font-size: 13px;
   }
 
   .details .location {
-   
+
     font-size: 15px;
 
   }
 
   .left_con {
-   
+
     left: -60px;
     width: 200px;
     height: 400px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 200px;
     height: 520px;
     left: 170px;
@@ -1125,7 +1135,7 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-left: 13px solid rgb(255, 255, 255);
@@ -1133,11 +1143,11 @@
   }
 
   .left_con_arrow {
-   
+
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-right: 13px solid rgb(254, 254, 254);
-   
+
 
   }
 
@@ -1172,7 +1182,13 @@
     padding: 10px 50px;
     margin: 0px 0px;
   }
-
+  .activeTab{
+    font-size: 40px !important;
+  }
+   
+  .tab{
+    font-size: 30px;
+  }
   .timeline::after {
     left: 500px;
   }
@@ -1200,19 +1216,20 @@
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-right: 13px solid rgb(254, 254, 254);
-    
+
   }
 
   .right_container_arrow {
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
     border-left: 13px solid rgb(255, 255, 255);
-    top:12px;
+    top: 12px;
   }
 
-  .tl{
-    margin:80px 500px;
+  .tl {
+    margin: 80px 500px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
@@ -1224,14 +1241,14 @@
     width: 90px;
     height: 90px;
     position: absolute;
-    left:-120px;
+    left: -120px;
   }
 
   .right_con_logo {
     width: 90px;
     height: 90px;
-    position:absolute;
-    left:250px;
+    position: absolute;
+    left: 250px;
   }
 
 
@@ -1241,34 +1258,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 19px;
 
   }
 
   .details .duration {
-  
+
     font-size: 15px;
   }
 
   .details .location {
-   
+
     font-size: 17px;
 
   }
 
   .left_con {
-   
+
     left: -70px;
     width: 200px;
     height: 450px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 200px;
     height: 620px;
     left: 170px;
@@ -1276,25 +1293,23 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 14px solid transparent;
     border-bottom: 14px solid transparent;
     border-left: 14px solid rgb(255, 255, 255);
     position: absolute;
-    top:20px;
+    top: 20px;
 
   }
 
   .left_con_arrow {
-   
+
     border-top: 14px solid transparent;
     border-bottom: 14px solid transparent;
     border-right: 14px solid rgb(254, 254, 254);
     position: absolute;
-    top:24px;
-    right:-15px
-   
-
+    top: 24px;
+    right: -15px
   }
 
 
@@ -1309,6 +1324,13 @@
   .timeline {
     margin: 120px 300px;
 
+  }
+
+  .activeTab{
+    font-size: 40px !important;
+  }
+  .tab{
+    font-size: 35px;
   }
 
   .text_box h3 {
@@ -1366,9 +1388,10 @@
     border-left: 14px solid rgb(255, 255, 255);
   }
 
-  .tl{
-    margin:80px 600px;
+  .tl {
+    margin: 80px 600px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
@@ -1379,18 +1402,18 @@
 
     width: 150px;
     height: 150px;
-    top:150px;
-    left:-250px;
+    top: 150px;
+    left: -250px;
   }
 
-  .right_con_logo  {
+  .right_con_logo {
     width: 150px;
     height: 150px;
-    position:absolute;
-    left:350px;
-    
-    
-  
+    position: absolute;
+    left: 350px;
+
+
+
 
   }
 
@@ -1402,34 +1425,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 35px;
 
   }
 
   .details .duration {
-  
+
     font-size: 30px;
   }
 
   .details .location {
-   
+
     font-size: 24px;
 
   }
 
   .left_con {
-   
+
     left: -200px;
     width: 300px;
     height: 800px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 350px;
     height: 930px;
     left: 170px;
@@ -1438,54 +1461,62 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     border-left: 18px solid rgb(255, 255, 255);
-    top:180px;
+    top: 180px;
 
   }
 
   .left_con_arrow {
-   
+
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     border-right: 18px solid rgb(254, 254, 254);
-    top:200px;
-    left:330px;
-   
+    top: 200px;
+    left: 330px;
+
 
   }
 
 
 }
 
-@media  screen and (min-width:1601px) and (max-width:2480px) {
-  .tl{
-    margin:80px 800px;
+@media screen and (min-width:1601px) and (max-width:2480px) {
+  .tl {
+    margin: 80px 800px;
   }
+
   .tl:after {
     left: 148px;
     margin-left: -3px;
 
   }
 
+  .tab{
+    font-size: 45px;
+  }
+  .activeTab{
+    font-size: 40px;
+  }
+
   .left_con_logo {
 
     width: 160px;
     height: 160px;
-    top:150px;
-    left:-250px;
+    top: 150px;
+    left: -250px;
   }
 
-  .right_con_logo  {
+  .right_con_logo {
     width: 160px;
     height: 160px;
-    position:absolute;
-    left:350px;
-    
-    
-  
+    position: absolute;
+    left: 350px;
+
+
+
 
   }
 
@@ -1497,34 +1528,34 @@
   }
 
   .details .designation {
-   
+
     font-size: 40px;
 
   }
 
   .details .duration {
-  
+
     font-size: 35px;
   }
 
   .details .location {
-   
+
     font-size: 30px;
 
   }
 
   .left_con {
-   
+
     left: -200px;
     width: 300px;
     height: 1100px;
-  
+
 
 
   }
 
   .right_con {
-   
+
     width: 350px;
     height: 930px;
     left: 170px;
@@ -1533,25 +1564,25 @@
   }
 
   .right_con_arrow {
-   
+
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 20px solid rgb(255, 255, 255);
-    top:30px;
+    top: 30px;
 
   }
 
   .left_con_arrow {
-   
+
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-right: 20px solid rgb(254, 254, 254);
-    top:200px;
-    left:330px;
-   
+    top: 200px;
+    left: 330px;
+
 
   }
 
 
-  
+
 }
