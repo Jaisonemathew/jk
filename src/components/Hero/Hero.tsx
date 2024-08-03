@@ -8,7 +8,9 @@ const Hero = () => {
     <>
     <div className="md:flex m-4">
         <div className="md:w-1/2 lg:max-w-[615px] lg:max-h-[900px] mt-5 scale-on-hover">
+        <a href="https://www.linkedin.com/in/joshuakanatt/" target='blank'>
         <img src={heroImage} alt="Description" />
+        </a>
       </div>
       <div className="ml-4 mr-4 md:mt-16 text sm:text-left text-center lg:max-w-[670px] lg:max-h-[658] md:w-1/2">
         <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular g-h1">Joshua Kanatt</h1>
@@ -22,7 +24,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
         <br></br>
         <div>
     <p className='md:text-2xl text-lg jost-400  bg-clip-text md:tracking-[3px] g-q'>"The journey of a thousand miles begins <br></br>with a single innovative step."</p>
-    <p className='md:ml-14 md:text-right text-center text-xl jost-400 g-q'>- Joshua Kanatt</p>
+    <p className='md:ml-16 md:text-right text-center text-xl jost-400 g-q'>- Joshua Kanatt</p>
     </div>
     <div className="social-media-buttons md:mt-10 md:hidden">
     <a href="https://www.linkedin.com/in/joshuakanatt/" target="google.com" rel="noopener noreferrer">
