@@ -582,6 +582,21 @@
     border-bottom: 10px solid transparent;
     border-left: 10px solid rgb(255, 255, 255);
   }
+
+  .right_con{
+    width: 130px;
+    left:150px
+  }
+ .left_con{
+  width:130px;
+  left:-10px;
+ }
+ .left_con_logo{
+  left:70px;
+ }
+ .tl:after{
+  left:128px;
+ }
   
  
  
