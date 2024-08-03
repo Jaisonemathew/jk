@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Fade } from "react-awesome-reveal";
+import { useSwipeable } from 'react-swipeable';
 import image1 from '../../assets/Gallery/1.jpg';
 import image2 from '../../assets/Gallery/2.jpg';
 import image3 from '../../assets/Gallery/3.jpg';
@@ -12,7 +13,8 @@ import image8 from '../../assets/Gallery/8.jpg';
 import image9 from '../../assets/Gallery/9.jpg';
 import image10 from '../../assets/Gallery/10.jpg';
 import image11 from '../../assets/Gallery/11.jpg';
-const images = [image1, image2, image3, image4,image5,image6,image7,image8,image9,image10,image11];
+
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11];
 
 const imageLinks = [
     'https://www.linkedin.com/posts/joshuakanatt_a-thriving-entrepreneur-is-a-dedicated-activity-7162072490641383424-IAMR?utm_source=share&utm_medium=member_desktop',
@@ -24,10 +26,9 @@ const imageLinks = [
     'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
     'https://www.linkedin.com/posts/joshuakanatt_entrepreneurship-technology-sports-activity-7045356679705591808-_LFM/?utm_source=share&utm_medium=member_desktop',
     'https://www.linkedin.com/posts/joshuakanatt_startups-business-leadership-activity-7031558151145484289--_kC/?utm_source=share&utm_medium=member_desktop'
-  
-   ];
-  
-  const GalleryContainer = styled.div`
+];
+
+const GalleryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,30 +88,35 @@ const Gallery: React.FC = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  const handlers = useSwipeable({
+    onSwipedLeft: handleNext,
+    onSwipedRight: handlePrev,
+    trackMouse: true
+  });
+
   return (
     <>
-    <Fade cascade damping={0.1}>
-   <p className="text-4xl gradient text-center poppins-bold mt-10 ">GALLERY</p><br></br>
-    <div className='-mt-20 md:mt-2'>
-    <GalleryContainer>
-      <ImageContainer>
-        <ImageLink href={imageLinks[currentIndex]} target="_blank" rel="noopener noreferrer">
-          <Image src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-        </ImageLink>
-      </ImageContainer>
-      <ButtonContainer>
-        <Button onClick={handlePrev}>
-          &lt;
-        </Button>
-        <Button onClick={handleNext}>
-          &gt;
-        </Button>
-      </ButtonContainer>
-    </GalleryContainer>
-    </div>
-    </Fade>
+      <Fade cascade damping={0.1}>
+        <p className="text-4xl gradient text-center poppins-bold mt-10">GALLERY</p><br></br>
+        <div className='-mt-20 md:mt-2'>
+          <GalleryContainer {...handlers}>
+            <ImageContainer>
+              <ImageLink href={imageLinks[currentIndex]} target="_blank" rel="noopener noreferrer">
+                <Image src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+              </ImageLink>
+            </ImageContainer>
+            <ButtonContainer>
+              <Button onClick={handlePrev}>
+                &lt;
+              </Button>
+              <Button onClick={handleNext}>
+                &gt;
+              </Button>
+            </ButtonContainer>
+          </GalleryContainer>
+        </div>
+      </Fade>
     </>
-    
   );
 };
 
