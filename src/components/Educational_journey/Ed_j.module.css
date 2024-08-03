@@ -503,21 +503,21 @@
   }
 
   .text_box h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .text_box p strong {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .text_box p {
-    font-size: 6px;
+    font-size: 10px;
 
   }
 
   .text_box {
     width: 150px;
-    height: 250px;
+    height: 300px;
     margin: 10px 0px;
 
 
