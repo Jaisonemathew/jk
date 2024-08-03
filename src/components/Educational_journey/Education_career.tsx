@@ -33,12 +33,12 @@ interface StartupEntry {
 }
 
 const EducationJourney: React.FC = () => {
-  const [showCareer, setShowCareer] = useState(false);
+  const [showCareer, setShowCareer] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
   const [showStartup, setShowStartup] = useState(false);
 
   const handleCareerClick = () => {
-    setShowCareer(!showCareer);
+    setShowCareer(true);
     setShowEducation(false);
     setShowStartup(false);
   };
@@ -196,7 +196,7 @@ const EducationJourney: React.FC = () => {
       </div>
 
 
-      <div className={`${styles.tl} `}>
+      <div className={`${styles.tl} ${showCareer ? '' : styles.hidden}`}>
         <div className={`${styles.right_con} ${styles.right_con_1}`}>
           <span className={styles.right_con_arrow}></span>
           <div className={styles.entry}>
