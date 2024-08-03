@@ -516,8 +516,8 @@
   }
 
   .text_box {
-    width: 150px;
-    height: 300px;
+    width: 250px;
+    height: 180px;
     margin: 10px 0px;
 
 
@@ -530,7 +530,7 @@
   }
 
   .left_container img {
-    left: 85px;
+    left: 185px;
     top: -20px;
     width: 40px;
     height: 40px;
@@ -549,8 +549,10 @@
     left: 30px
   }
 
-  .left_container {
-    right: 200px;
+  .left_container .text_box {
+    text-align: right;
+    
+    right: 100px;
   }
 
 
