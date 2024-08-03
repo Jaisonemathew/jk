@@ -466,32 +466,141 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:430px) {
+@media  screen and (max-width:414px) {
   .timeline {
-    margin: 80px 75px;
+    margin: 80px 90px;
 
   }
 
   .timeline::after {
-    left: 148px
+    left: 50px
+  }
+
+  .activeTab {
+    font-size: 16px !important;
+  }
+
+  .tab {
+    font-size: 12px;
+  }
+
+  .text_box h3 {
+    font-size: 12px;
+  }
+
+  .text_box p strong {
+    font-size: 9px;
+  }
+
+  .text_box p {
+    font-size: 7px;
+
+  }
+
+  .text_box {
+    width: 150px;
+    height: 180px;
+    margin: 10px 0px;
+
+
+
+  }
+
+  .text_box img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .left_container img {
+    left: 80px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+
+  }
+
+  .right_container img {
+    left: 25px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+
+  }
+
+  .right_container {
+    left: -65px
+  }
+
+  .left_container .text_box {
+    text-align: right;
+    
+    right: 100px;
+  }
+
+
+  .SectionTitle p:first-child {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .SectionTitle p:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    left: 7px
+  }
+
+  .SectionTitle p:nth-child(3) {
+    position: absolute;
+    top: 20px;
+    right: 7px;
+
+  }
+
+  .container {
+    padding: 10px 0px;
+  }
+
+  .SectionTitle {
+    margin-bottom: 50px;
+  }
+
+  .SectionTitle {
+    position: relative;
+  }
+
+  .left_container_arrow {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgb(254, 254, 254);
+  }
+
+  .right_container_arrow {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid rgb(255, 255, 255);
+  }
+  
+ 
+ 
+
+
+  
+}
+
+
+
+
+@media screen and (min-width:415px) and (max-width:430px) {
+  .timeline {
+    margin: 80px 90px;
+
+  }
+
+  .timeline::after {
+    left: 119px
   }
 
   .activeTab {
@@ -516,7 +625,7 @@
   }
 
   .text_box {
-    width: 250px;
+    width: 220px;
     height: 180px;
     margin: 10px 0px;
 
@@ -530,7 +639,7 @@
   }
 
   .left_container img {
-    left: 185px;
+    left: 155px;
     top: -20px;
     width: 40px;
     height: 40px;
@@ -546,7 +655,7 @@
   }
 
   .right_container {
-    left: 30px
+    left: 3px
   }
 
   .left_container .text_box {
