@@ -58,7 +58,7 @@
 }
 
 .right_con_2 {
-  animation-delay: 3s;
+  animation-delay: 4s;
 
 }
 
@@ -245,7 +245,7 @@
   color: transparent;
 
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .SectionTitle p:first-child {
@@ -457,10 +457,13 @@
 }
 
 .right_con_2{
-  height:200px !important;
+  height:250px !important;
 
 }
 
+.right_con_2_arrow{
+  top:20px;
+}
 
 
 
@@ -595,6 +598,9 @@
     border-bottom: 10px solid transparent;
     border-left: 10px solid rgb(255, 255, 255);
   }
+  
+ 
+ 
 
 
 
@@ -1466,12 +1472,16 @@
 
   }
 
+  .right_con_2{
+    height:400px !important;
+  }
+
   .right_con_arrow {
 
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     border-left: 18px solid rgb(255, 255, 255);
-    top: 180px;
+    top: 30px;
 
   }
 

@@ -267,7 +267,7 @@ const EducationJourney: React.FC = () => {
 
         <div className={`${styles.right_con} ${styles.right_con_2}`}>
           <div className={styles.entry}>
-            <span className={styles.right_con_arrow}></span>
+            <span className={`${styles.right_con_arrow} ${styles.right_con_2_arrow}`}></span>
             <div className={styles.details}>
               <h3>PARKit - Advanced Parking System</h3>
               <p className={styles.designation}>Research Lead</p>
