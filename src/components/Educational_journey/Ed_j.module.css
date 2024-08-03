@@ -250,6 +250,7 @@
 
 .SectionTitle p:first-child {
   position: relative;
+  
 }
 
 .SectionTitle p:first-child::before {
@@ -486,7 +487,7 @@
   }
 
   .activeTab {
-    font-size: 12px;
+    font-size: 16px !important;
   }
 
   .tab {
