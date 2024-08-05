@@ -12,7 +12,7 @@ function Form() {
     <Fade cascade damping={0.1}>
     <br></br>
     <br></br>
-    <p className="text-4xl poppins-bold gradient text-center" id="contact">LETS GET IN TOUCH !</p><br></br>
+    <p className="-mt-20 md:mt-2 text-4xl poppins-bold gradient text-center" id="contact">LETS GET IN TOUCH !</p><br></br>
       <p className='text-center dm-sans-300'>I WOULD LOVE TO HEAR FROM YOU.</p><br></br>
  
     <form onSubmit={handleSubmit} className='m-4 jost-300'>

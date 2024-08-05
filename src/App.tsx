@@ -30,6 +30,7 @@ function App() {
    <Form/>
    <footer className=' text-nwhite text-center p-4'>
      <p>© 2024 All rights reserved</p>    
+     <p>Haniya Abdul Rahaman | Jaison E Mathew | Lokesh Suwalka</p>    
     </footer>
     </>
   )
