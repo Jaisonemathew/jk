@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav ref={navbarRef} className="navbar poppins-light p-4">
       <div className="navbar-left">
-        <a href="/" className='font-semibold'>Personal Website</a>
+        <a href="/" className='font-normal'>Personal Website</a>
       </div>
       <button className="menu-button" onClick={toggleMenu}>
         ☰
