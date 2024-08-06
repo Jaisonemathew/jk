@@ -3,6 +3,12 @@ import styles from './MyFeeds&post.module.css';
 import image12 from '../../assets/Gallery/12.jpg';
 import image13 from '../../assets/Gallery/13.jpg';
 import image14 from '../../assets/Gallery/14.jpg';
+import image15 from '../../assets/Gallery/15.jpg';
+import image16 from '../../assets/Gallery/16.png';
+import image17 from '../../assets/Gallery/17.jpg';
+import image18 from '../../assets/Gallery/18.jpg';
+import image19 from '../../assets/Gallery/19.png';
+import image20 from '../../assets/Gallery/20.jpg';
 import { Fade } from "react-awesome-reveal";
 
 const MyFeedsAndPosts: React.FC = () => {
@@ -55,7 +61,80 @@ const MyFeedsAndPosts: React.FC = () => {
         <img src={image14} alt="Post" className={styles.postImage} />
     </div>
 </a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_a-thriving-entrepreneur-is-a-dedicated-activity-7162072490641383424-IAMR/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        " A thriving entrepreneur is a dedicated learner, turning each challenge into a classroom and every setback into a stepping stone." 
+I have successfully completed Masters in Data Science from Liverpool John Moores University and Advanced General Management Program (PGDM ) from Institute of Management Technology, Ghaziabad. Read More...
+        </p>
+        <img src={image15} alt="Post" className={styles.postImage} />
+    </div>
+</a>
 
+<a href="https://www.linkedin.com/posts/joshuakanatt_im-thrilled-to-announce-that-i-have-activity-7088034104394338304-Y-sG/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+      I'm thrilled to announce that I have successfully completed the prestigious Stanford Seed Spark Program by representing GAMERS TAG . This program has been an incredible journey, specially designed for early-stage entrepreneurs like me, and it has truly transformed my mindset and approach towards entrepreneurship. Read More...
+        </p>
+        <img src={image17} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_argentinavsfrance-worldcup2022-messi-activity-7010537220025585664-xCjC/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        AI and other technology have had a significant effect on Messi and Argentina's historic victory in the 2022 World Cup. The outcome of the game may have been altered if the traditional methods of analysis had been applied and the goal had not been counted. Read my article for more information.
+        </p>
+        <img src={image16} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_ai-movie-filmmaking-activity-7130494647595892736-E8NF/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        I'm fascinated by how the movie Industry will enter a new era of cinematic creativity, finding itself at the intersection of technology and imagination. As graphic engines broaden cinema's visual possibilities, the link between gaming and filmmaking demonstrates the boundless possibility that emerges when technology and imagination come together. Sharing my research and thoughts in future landscape of Film Industry.
+        </p>
+        <img src={image19} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_gaming-unrealengine-unrealengine5-activity-7129872570866167810-3P7T/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        It’s very promising to witness an exciting future for film industry and emerging visual experience in the entertainment landscape. Embracing this technological evolution is not just a leap forward for filmmakers; it's a testament to the dynamic and boundless potential at the intersection of gaming innovation and cinematic excellence
+        </p>
+        <img src={image18} alt="Post" className={styles.postImage} />
+    </div>
+</a>
+<a href="https://www.linkedin.com/posts/joshuakanatt_india-indiansports-historicwins-activity-7108703588369010688-QqGB/?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" className={styles.postLink}>
+    <div className={styles.post}>
+        <span className={styles.headingOfPost}>
+            <h3>Joshua Kanatt</h3>
+            <p>LINKEDIN</p>
+        </span>
+        <p className={styles.secondPara}>
+        " I am incredibly inspired by the remarkable achievements of our Indian athletes in 2023. Their dedication, passion, and relentless pursuit of excellence mirror the qualities that drive to be successful. These athletes have overcome challenges and pushed boundaries to reach new heights. As a founders, entrepreneur journey is filled with ups and downs, their achievements remind us that with unwavering focus and a strong team, we can overcome any obstacle and achieve our vision"
+        </p>
+        <img src={image20} alt="Post" className={styles.postImage} />
+    </div>
+</a>
                         <div className={styles.post}>
                             <span className={styles.headingOfPost}>
                                 <h3>Joshua Kanatt</h3>

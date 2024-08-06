@@ -29,8 +29,8 @@ function App() {
    <Gallery/>
    <Form/>
    <footer className=' text-nwhite text-center p-4'>
-     <p>© 2024 All rights reserved</p>    
-     <p>Haniya Abdul Rahaman | Jaison E Mathew | Lokesh Suwalka</p>    
+     <p className='font-light'>© 2024 All rights reserved</p>    
+     <p>Credits to GAMERS TAG TEAM : Haniya Abdul Rahaman | Jaison E Mathew | Lokesh Suwalka</p>    
     </footer>
     </>
   )
