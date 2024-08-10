@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="md:text-5xl text-4xl gradient-h1 poppins-regular g-h1">Joshua Kanatt</h1>
         <p className='jost-400 text-xl leading-10 text-neutral-400 md:tracking-[3px] g-h2 fc'>
         Founder & Chief Executive Officer - GAMERS TAG</p>     
-        <p className='jost-300 mt-2 md:tracking-widest hp mr-20'>
+        <p className='jost-300 mt-2 md:tracking-widest hp md:mr-20'>
         I'm a visionary entrepreneur with over four years of expertise in Product management, architecture, Marketing, Data analytics, Business development & Consulting, and Startups. Designed over 100 world-class products, setting new industry standards. With unique talent for forecasting product growth, validated by extensive customer persona analysis. As an entrepreneur by heart, I bring a competitive mindset to product ownership,
 assuring highest performance and innovation with mindset of 5x growth. Have a vision to forecast the product. My expertise of numerous business models in multiple industries, refined by my experience.
         </p>
