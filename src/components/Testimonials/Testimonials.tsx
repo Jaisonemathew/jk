@@ -63,7 +63,7 @@ In addition, Joshua's ability to come up with creative solutions and work throug
   ,
   {
     name: 'Dibin Jose Vadakkan',
-    position: 'US -Tax and Accounts Associate',
+    position: 'Accounts Associate',
     description: "It's been a pleasure working with Joshua! His enthusiasm is contagious, and he seems to elevate us to new heights with each obstacle we face. Joshua is a unique leader since he empowers others in addition to leadership. Everyone feels appreciated and inspired to perform at their highest level thanks to the environment he's established. And his understanding of finance and multiple areas with his tech expertise is astounding. He's given me a completely fresh perspective on the world, which has enabled me to make better decisions for our team. Joshua inspires me to strive for excellence every day. I am truly inspired by his vision and drive, and I am appreciative of the path he has led me on.",
     imageUrl: dibin
   }
@@ -135,7 +135,7 @@ If you have any questions or would like more details, feel free to reach out to 
   ,
   {
     name: 'Numa Fathima',
-    position: 'User Interface Designer At Finline',
+    position: 'UI Designer At Finline',
     description: `I worked as a graphic design intern at Gamers Tag and my experience was made amazing by the mentorship of Joshua Kannat, CEO of Gamers Tag. Joshua isn't just a boss; he's a mentor, a friend who has helped me improve my design game with wonderful insights. 
 
 His friendly and understanding approach, coupled with effective guidance, brought out the best in me. What stands out about Joshua is how cool he is with new ideas and talking things through. His way of leading creates this relaxed and team-friendly spirit that has made my time at Gamers Tag super awesome. I think what's great about Joshua is that he's not just a boss; he really looks out for everyone in the team, helping us grow and stuff.
@@ -190,7 +190,7 @@ const Testimonials: React.FC = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     responsive: [
@@ -211,7 +211,7 @@ const Testimonials: React.FC = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.06,
+          slidesToShow: 1.05,
           centerPadding: "30px",
         }
 
@@ -219,7 +219,7 @@ const Testimonials: React.FC = () => {
       {
         breakpoint: 500,
         settings: {
-          slidesToShow: 1.08,
+          slidesToShow: 1,
           centerPadding: "20px",
         }
       }

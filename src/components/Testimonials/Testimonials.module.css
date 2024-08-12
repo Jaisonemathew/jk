@@ -32,13 +32,6 @@
   border: 2px solid #4C4C4C;
 }
 
-/* .testimonialCardOdd > div {
- 
-
- 
-  
- 
-} */
 
 
 .testimonialCard:hover {
@@ -100,8 +93,139 @@
   
   font-size: 21px;
 }
+@media screen and (max-width:320px){
+  .testimonialImage {
+    width: 111px;
+    height: 111px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  
+  
+  }
+  .testimonialName {
+    font-size: 15px;
+   
+  }
+  
+  .testimonialPosition {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 10px;
 
-@media screen and (max-width:600px){
+  } 
+  
+  .testimonialDescription {
+    font-size: 10px;
+  
+  } 
+  
+  .sectionTitle {
+    
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    
+  
+  }
+  .mybtn{
+    font-size: 12px;
+  }
+  .mybtn:hover{
+    
+    font-size: 13px;
+  }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:376px){
+  .testimonialImage {
+    width: 111px;
+    height: 111px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  
+  
+  }
+  .testimonialName {
+    font-size: 17px;
+   
+  }
+  
+  .testimonialPosition {
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 10px;
+
+  } 
+  
+  .testimonialDescription {
+    font-size: 10px;
+  
+  } 
+  
+  .sectionTitle {
+    
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    
+  
+  }
+  .mybtn{
+    font-size: 10px;
+  }
+  .mybtn:hover{
+    
+    font-size: 11px;
+  }
+
+}
+@media screen and (min-width:377px) and (max-width:430px){
+  .testimonialImage {
+    width: 111px;
+    height: 111px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  
+  
+  }
+  .testimonialName {
+    font-size: 18px;
+   
+  }
+  
+  .testimonialPosition {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 10px;
+
+  } 
+  
+  .testimonialDescription {
+    font-size: 12px;
+  
+  } 
+  
+  .sectionTitle {
+    
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    
+  
+  }
+  .mybtn{
+    font-size: 12px;
+  }
+  .mybtn:hover{
+    
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (min-width:431px) and (max-width:600px){
   .testimonialImage {
     width: 111px;
     height: 111px;
