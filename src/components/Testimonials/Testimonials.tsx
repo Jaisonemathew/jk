@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Testimonials.module.css';
 import utpul_tiwari from '../../assets/Utpul_Tiwari.jpeg'
 import sundaram from '../../assets/Sundaram.jpeg'
@@ -119,7 +119,6 @@ The product architecture reflects the company's forward-thinking approach. The m
     name: 'Nithin George ',
     position: 'Product Developer',
     description: `I have had the pleasure of working closely with Joshua over the past 5 years at Gamerstag. As the product designer and Joshua serving as the Founder and product lead, I have witnessed firsthand his exceptional skills and contributions.
-
 Joshua is not just a founder, product designer, and business strategist, but a true visionary who brings creativity and strategic thinking to every project. His ability to seamlessly integrate design principles with business strategy sets him apart in our industry. Joshua led our team in a very creative way, where his innovative approach not only met but exceeded our expectations.
 
 One of Joshua's standout qualities is his leadership. As the founder of [his company], he has demonstrated an unwavering commitment to fostering a collaborative and innovative work culture. His ability to inspire and lead cross-functional teams has been instrumental in the success of our projects. Joshua's leadership style is not only visionary but also inclusive, making everyone feel valued and motivated.
@@ -160,16 +159,38 @@ Joshua is really chill, easy to talk to and is always open to hearing what I had
 
 const Testimonials: React.FC = () => {
 
-  const [expandedIndex, setExpendedIndex] = useState<number | null>(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+
   const handleToggle = (index: number) => {
-    setExpendedIndex(expandedIndex === index ? null : index);
-  }
+    setExpandedIndex(prevIndex => (prevIndex === index ? null : index));
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+  
+ 
+      if (Math.abs(scrollTop - lastScrollTop) > 1018) {
+        setExpandedIndex(null);  
+      }
+  
+      setLastScrollTop(scrollTop);
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [expandedIndex]);
+
+
   const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     responsive: [
