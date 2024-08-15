@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  margin:auto;
+  margin:10px 40px;
   gap:20px;
 
 }
@@ -74,21 +74,13 @@
 }
 
 
-.postsContainer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 900px;
-  max-height: 480px;
-  gap: 20px;
 
-}
 
 .post {
   background:linear-gradient(0deg,#171717,#000000,#1F1F1F);
   padding: 20px;
   border-radius: 10px;
-  width: 45%;
+  width: 98%;
   display: flex;
   flex-direction: column;
 }
@@ -128,13 +120,7 @@
   flex-direction: column;
 }
 
-.Secondcontainer{
-  display: flex;
-  gap:90px;
 
-  
-  
-}
 .headingOfPost{
   display: flex;
   justify-content: space-between;
@@ -162,16 +148,105 @@
 
 }
 
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px; 
+  overflow: hidden;
+  max-height: 400px;
+  max-width: 25%;
+  gap: 10px;
+}
+.secondContainer{
+  display: flex;
+  flex-direction: column;
+  max-height: 500px; 
+  overflow: hidden;
+  max-height: 400px;
+  max-width: 25%;
+  gap: 10px;
 
+}
 
-
-@media screen and (max-width:600px){
+.postLink {
+  display: inline-block;
+  margin-bottom: 20px; 
+}
+.magic{
+  animation: trainMoveVertical 30s linear infinite;
+  margin-bottom: -10px;
  
-  .Secondcontainer{
+
+}
+
+@keyframes trainMoveVertical {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.secondContainer .magic{
+  animation: trainMoveVerticalButDownWards 30s linear infinite;
+
+
+
+}
+
+@keyframes trainMoveVerticalButDownWards{
+  0% {
+    transform:translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+
+}
+
+
+.post:hover{
+  background: white;
+  color:black;
+}
+.container >div:last-child>div{
+  display: flex;
+  gap: 20px;
+
+
+}
+
+
+
+
+
+@media screen and (max-width:430px){
+ 
+  .firstContainer{
+    
+    
     display:flex;
     flex-direction: column;
+    max-width: 100% !important;
+    position: relative;
+    left:20px;
+  
+
    
   }
+
+  .secondContainer{
+    display: none;
+  }
+  .container >div:last-child>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+  
+  }
+
+
  
 
  .followText{
@@ -201,20 +276,82 @@
  .subtitle{
   font-size: 12px;
  }
- .postsContainer{
-  display: flex;
-  flex-direction: column;
-  
-
-
- }
  h3{
   margin-top: 0px;
  }
 
 
 }
+
+@media screen and (min-width:431px) and (max-width:600px){
+  .firstContainer{
+    
+    
+    display:flex;
+    flex-direction: column;
+    max-width: 100% !important;
+    position: relative;
+    left:20px;
+  
+
+   
+  }
+
+  .secondContainer{
+    display: none;
+  }
+  .container >div:last-child>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+  
+  }
+
+
+ 
+
+ .followText{
+
+  margin-right: 53px;
+  margin-bottom: 0px;
+
+ }
+ .followText span{
+  font-size: 50px;
+ }
+ .title{
+  font-size: 30px;
+ }
+
+
+ .post:last-child{
+  justify-content: space-evenly;
+
+ }
+ .post{
+  width: 90%;
+ }
+ .container::before{
+  display:none;
+ }
+ .subtitle{
+  font-size: 12px;
+ }
+ h3{
+  margin-top: 0px;
+ }
+
+
+
+}
 @media screen and (min-width:601px) and (max-width:800px){
+  .firstContainer{
+    max-height: 230px;
+  }
+  .secondContainer{
+    max-height: 230px;
+  }
  
   .followText span{
     font-size: 40px;
@@ -265,6 +402,13 @@
 
 }
 @media screen and (min-width:801px) and (max-width:1063px){
+  .firstContainer{
+    max-height: 300px;
+  }
+  .secondContainer{
+    max-height: 300px;
+  }
+  
   .followText span{
     font-size: 50px;
     
@@ -306,6 +450,12 @@
 
 }
 @media screen and (min-width:1064px) and (max-width:1200px){
+  .firstContainer{
+    max-height: 400px;
+  }
+  .secondContainer{
+    max-height: 400px;
+  }
   .title{
     font-size: 35px;
   }
@@ -335,21 +485,4 @@
   }
 }
 
-.postsContainer {
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch;
-  max-height: 500px; /* Adjust the height as needed */
-}
 
-.post {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  margin-bottom: 16px; /* Adjust as needed */
-}
-.post:hover{
-  background: white;
-  color:black;
-}
