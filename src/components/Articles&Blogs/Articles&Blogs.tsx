@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 import filmIndustry from '../../assets/Film_industry.png'
 import R_filmindustry from '../../assets/R_filmIndustry.jpeg'
 import Navic from '../../assets/Navic.png'
-import blockchain from '../../assets/blockchain.jpg'
+import blockchain from '../../assets/BlockChain.png'
 import messi from '../../assets/messi.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -79,7 +79,7 @@ const ArticlesAndBlogs: React.FC = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed:2000,
     pauseOnHover: true
   };

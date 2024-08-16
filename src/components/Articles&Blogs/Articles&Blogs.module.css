@@ -35,6 +35,7 @@
 .articleImage {
   width: 40%;
   object-fit: cover;
+  padding: 20px 5px;
 }
 
 .articleContent {
