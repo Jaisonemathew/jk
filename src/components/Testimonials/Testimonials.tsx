@@ -13,6 +13,11 @@ import aditya from "../../assets/Aditya.jpeg"
 import nitin from "../../assets/Nitin.jpeg"
 import Numa from "../../assets/Numa.jpeg"
 import Ahmd from "../../assets/Ahmd.jpeg"
+import Mohd from "../../assets/Mohd_Amir.jpeg"
+import Anusha from "../../assets/Anusha_popat.jpeg"
+import shamil from "../../assets/Shamil.jpeg"
+import himanshu from "../../assets/Himanshu.jpeg"
+import abhishek from "../../assets/Abhishek.jpeg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -151,7 +156,52 @@ I am sincerely grateful to Joshua for creating an enriching learning experience 
 
 Joshua is really chill, easy to talk to and is always open to hearing what I had to say. The working environment was super calm and composed under him yet he was able to make sure the work was done on time. He is one of the finest examples of a leader I have personally known in my life and I am hoping that he will reach great heights. I recommend Joshua Kanatt as a CEO and mentor. He's a great leader who cares about his team, knows about the industry in abundance and is always ready to help you grow.`,
     imageUrl: Ahmd
-  }
+  },
+  {
+    name: 'Mohd Amber Rizvi  ',
+    position: `Application Developer @Oracle`,
+    description: `I have enjoyed working with Joshua Kanatt, CEO of Gamerstag, as a lead Flutter developer for the past seven months. Joshua's leadership and dedication were key to the success of our mobile app. He was deeply involved in every step, designing the entire UI and clearly communicating his vision and app flow, which made the development process seamless and efficient.
+
+What I admire most about Joshua is his openness to feedback and his willingness to adapt and improve. He is always eager to consider suggestions and make necessary changes to enhance the product. His ability to manage a large team while fostering a collaborative and innovative environment is truly impressive. I believe Joshua is going to build a very great and successful product soon.`,
+    imageUrl: Mohd
+  },
+  {
+    name: 'Anusha Popat ',
+    position: `Graphic Designer`,
+    description: `Joshua Kannat Sir proved to be an exceptional instructor and leader during my tenure at Gamers Tag. He has continuously shown a profound awareness of marketing tactics, promotional standards, and client needs throughout my graphic design internship. Joshua Kannat has been a huge help and consistently gives me incisive criticism that has improved my learning process. He is a master at leading groups of people, encouraging teamwork, and making sure everything goes smoothly. His effective and motivating leadership style makes him a priceless asset to any group or organisation. Along with always showing us how knowledgeable and tasteful he is when it comes to design, he also always leads us smoothly and calmly in the direction of the desired outcomes.`,
+    imageUrl: Anusha
+  },
+  {
+    name: 'Muhammed Shamil ',
+    position: `Creative Strategist`,
+    description: `I worked as a digital marketing intern at Gamers Tag for a year, and my experience it was like a family for me with the mentorship of Joshua Kannat, CEO of Gamers Tag. Joshua isn't just a boss; he's a mentor and a friend who helped me out Soo much I can't even count. 
+
+What stands out most about Joshua is his openness to new ideas and his willingness to discuss them. Joshua genuinely cares about everyone on the team, always encouraging us to grow and improve.
+And pushed me to go beyond my limits. 
+
+I am sincerely grateful to Joshua for creating a learning experience that played a crucial role in my development as a digital marketer. I wholeheartedly recommend him as both a CEO and a mentor, confident that his leadership will continue to positively influence the company.`,
+    imageUrl: shamil
+  },
+  {
+    name: ' Himanshu Gupta ',
+    position: `Game Developer`,
+    description: `I had a pleasure under Mr.Joshua Kanatt at GAMERS TAG and can definitely say that he is a very good mentor and leader.
+
+He helped me in achieving various difficult tasks which would not be possible without his leadership and mentorship. His leadership and mentorship not only improved my technical skills but nurtured my personal development.
+
+In the end, I would say that Joshua sir is a perfect example of leadership and mentorship.`,
+    imageUrl: himanshu
+  },
+  {
+    name: ' Abhishek S Nair ',
+    position: `GPursuing CMA USA`,
+    description: `I had the pleasure of working under Mr. Joshua at GAMERS TAG and can confidently say that he is an exceptional leader and mentor. Joshua demonstrated a deep understanding of Gaming, consistently providing insightful guidance and fostering a collaborative work environment.
+
+Their ability to strategically manage complex projects and inspire and motivate the team was truly impressive. Mr. Joshua was always approachable, willing to share their expertise, and dedicated to the professional growth of their team members.
+
+Working with Mr. Joshua not only advanced my skills but also provided invaluable experience in project management, strategic planning etc. I am grateful for their support and highly recommend Mr. Joshua for their exceptional leadership and professional excellence.`,
+    imageUrl: abhishek
+  },
 
 
 
@@ -169,12 +219,12 @@ const Testimonials: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  
- 
+
+
       if (Math.abs(scrollTop - lastScrollTop) > 1018) {
-        setExpandedIndex(null);  
+        setExpandedIndex(null);
       }
-  
+
       setLastScrollTop(scrollTop);
     };
     window.addEventListener('scroll', handleScroll);
@@ -253,7 +303,12 @@ const Testimonials: React.FC = () => {
                                     : index === 10 ? "https://www.linkedin.com/in/nithin-george-308a9458/"
                                       : index === 11 ? "https://www.linkedin.com/in/numa-fathima-730159292/"
                                         : index === 12 ? "https://www.linkedin.com/in/ahammed-habeebi-b4997021a/"
-                                          : ""}
+                                          : index == 13 ? "https://www.linkedin.com/in/mohd-amber-rizvi-93a55a201/"
+                                            :index==14 ? "https://www.linkedin.com/in/anusha-popat-b199802a5/"
+                                            :index==15?"https://www.linkedin.com/in/muhammed-shamil-thottungal/"
+                                            :index==16?"https://www.linkedin.com/in/himanshu-gupta-33491b1ba/"
+                                            :index==17?"https://www.linkedin.com/in/abhishek-s-nair-978077277/"
+                                            :""}
                   target='_blank'
                 >
 

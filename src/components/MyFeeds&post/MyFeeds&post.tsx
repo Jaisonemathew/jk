@@ -9,6 +9,7 @@ import image17 from '../../assets/Gallery/17.jpg';
 import image18 from '../../assets/Gallery/18.jpg';
 import image19 from '../../assets/Gallery/19.png';
 import image20 from '../../assets/Gallery/20.jpg';
+import image21 from '../../assets/21.jpeg';
 import { Fade } from "react-awesome-reveal";
 
 const MyFeedsAndPosts: React.FC = () => {
@@ -51,10 +52,10 @@ const MyFeedsAndPosts: React.FC = () => {
             image: image17, // Make sure to import or define image17
             link: "https://www.linkedin.com/posts/joshuakanatt_im-thrilled-to-announce-that-i-have-activity-7088034104394338304-Y-sG/?utm_source=share&utm_medium=member_desktop"
         },
-        
+
     ];
 
-    const posts1=[
+    const posts1 = [
         {
             name: "Joshua Kanatt",
             platform: "LINKEDIN",
@@ -89,9 +90,16 @@ const MyFeedsAndPosts: React.FC = () => {
             content: "I strongly believe that gaming industry is set to thrive like never before in 2024, and it's not just about the numbers – it's about the diversity and innovation transforming the landscape. From casual games to competitive gaming, the industry is a playground for everyone. With a projected global gaming market value of $286.8 billion in 2025 and mobile games leading the charge. It's not just about gaming for fun; it's a serious business with an expected annual growth rate of 10.69% through 2028 .",
             image: null, // No image for this post
             link: null // No link for this post
+        },
+        {
+            name: "Joshua Kanatt",
+            platform: "LINKEDIN",
+            content: `Are you a student ? Or rising talent ? Or looking for a job or opportunities ? Do you agree ? Comment your thoughts 💭`,
+            image: image21, // No image for this post
+            link: `https://www.linkedin.com/posts/joshuakanatt_careergrowth-jobopportunities-careersuccess-activity-7234887107587010561-2boC?utm_source=share&utm_medium=member_desktop`
         }
-        
-        
+
+
     ];
 
 
@@ -112,7 +120,7 @@ const MyFeedsAndPosts: React.FC = () => {
                         <div className={styles.magic}
                         >
                             {posts.map((post, index) => (
-                                
+
                                 <a key={index} href={post.link ? post.link : '#'} target="_blank" rel="noopener noreferrer" className={styles.postLink}>
                                     <div className={styles.post}>
                                         <span className={styles.headingOfPost}>
@@ -125,14 +133,14 @@ const MyFeedsAndPosts: React.FC = () => {
                                         {post.image && <img src={post.image} alt="Post" className={styles.postImage} />}
                                     </div>
                                 </a>
-                                
+
                             ))}
 
 
                         </div>
                         <div className={styles.magic}>
                             {posts.map((post, index) => (
-                            
+
                                 <a key={index} href={post.link ? post.link : '#'} target="_blank" rel="noopener noreferrer" className={styles.postLink}>
                                     <div className={styles.post}>
                                         <span className={styles.headingOfPost}>
@@ -145,7 +153,7 @@ const MyFeedsAndPosts: React.FC = () => {
                                         {post.image && <img src={post.image} alt="Post" className={styles.postImage} />}
                                     </div>
                                 </a>
-                                
+
                             ))}
 
 
