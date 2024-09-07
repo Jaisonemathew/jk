@@ -167,7 +167,7 @@ const EducationJourney: React.FC = () => {
           }}
           className={`${styles.tab} ${activeTab === 'education' ? styles.activeTab : ''}`}
         >
-          Education Career
+          Education Journey
         </p>
 
         <p
