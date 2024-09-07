@@ -30,7 +30,7 @@ function App() {
    <Form/>
    <footer className=' text-nwhite text-center p-4'>
      <p className='font-light'>© 2024 All rights reserved</p>    
-     <p>Credits to GAMERS TAG TEAM : Haniya Abdul Rahaman | Jaison E Mathew | Lokesh Suwalka</p>    
+     <p>Credits to GAMERS TAG TEAM :  Lokesh Suwalka | Jaison E Mathew | Haniya Abdul Rahaman</p>    
     </footer>
     </>
   )
