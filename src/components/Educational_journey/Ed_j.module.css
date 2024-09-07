@@ -286,7 +286,7 @@
 .SectionTitle p:nth-child(2)::before {
   background: linear-gradient(84deg, #4646F9, #9130F4, #5941F8, #6C3BF7, #9130F4);
   background-clip: text;
-  content: "Education Career";
+  content: "Education Journey";
   position: absolute;
   top: 0;
   left: 0;
