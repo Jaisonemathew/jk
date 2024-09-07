@@ -33,9 +33,9 @@ interface StartupEntry {
 }
 
 const EducationJourney: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'career' | 'education' | 'startup'>('career');
-  const [showCareer, setShowCareer] = useState(true);
-  const [showEducation, setShowEducation] = useState(false);
+  const [activeTab, setActiveTab] = useState<'career' | 'education' | 'startup'>('education');
+  const [showCareer, setShowCareer] = useState(false);
+  const [showEducation, setShowEducation] = useState(true);
   const [showStartup, setShowStartup] = useState(false);
 
   const handleCareerClick = () => {

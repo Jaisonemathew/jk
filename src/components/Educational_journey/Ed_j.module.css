@@ -540,16 +540,19 @@
 
   .SectionTitle p:first-child {
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
+    top: 20px;
+    left: 7px;
+    
 
   }
 
   .SectionTitle p:nth-child(2) {
     position: absolute;
-    top: 20px;
-    left: 7px
+    top: 10px;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
   }
 
   .SectionTitle p:nth-child(3) {
@@ -619,7 +622,7 @@
   }
 
   .activeTab {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .tab {
@@ -682,16 +685,17 @@
 
   .SectionTitle p:first-child {
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20px;
+    left: 7px;
+ 
+    
 
   }
 
   .SectionTitle p:nth-child(2) {
     position: absolute;
-    top: 20px;
-    left: 7px
+    top: 10px;
+    left: 37%;
   }
 
   .SectionTitle p:nth-child(3) {
@@ -750,7 +754,7 @@
   }
 
   .activeTab{
-    font-size: 18px !important;
+    font-size: 15px !important;
   }
 
   .tab {
@@ -799,16 +803,18 @@
 
   .SectionTitle p:first-child {
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 18px;
+    left: 7px;
+   
+   
 
   }
 
   .SectionTitle p:nth-child(2) {
     position: absolute;
-    top: 18px;
-    left: 7px
+    
+    top: 20px;
+    left: 36%;
   }
 
   .SectionTitle p:nth-child(3) {
@@ -987,15 +993,17 @@
   .SectionTitle p:first-child {
     position: absolute;
     top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 7px;
+    
+    
 
   }
 
   .SectionTitle p:nth-child(2) {
     position: absolute;
+   
     top: 10px;
-    left: 7px
+    left: 40%;
   }
 
   .SectionTitle p:nth-child(3) {
@@ -1176,15 +1184,17 @@
   .SectionTitle p:first-child {
     position: absolute;
     top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 7px;
+    
 
   }
 
   .SectionTitle p:nth-child(2) {
     position: absolute;
+   
     top: 10px;
-    left: 7px
+    left: 38%;
+
   }
 
   .SectionTitle p:nth-child(3) {
