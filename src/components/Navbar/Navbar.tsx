@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect} from 'react';
 import './Navbar.css';
-
+import logo from '../../assets/Iconlogo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navbarRef = useRef<HTMLElement | null>(null);
@@ -23,6 +23,7 @@ const Navbar = () => {
   return (
     <nav ref={navbarRef} className="navbar poppins-light p-4">
       <div className="navbar-left">
+        <img src={logo} alt="" />
         <a href="/" className='font-normal'>Personal Website</a>
       </div>
       <button className="menu-button" onClick={toggleMenu}>
